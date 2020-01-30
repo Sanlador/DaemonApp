@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-01-28T16:45:01.560-08:00
-  initializedAtString: 2020-01-28T16:44:35.205-08:00
+  lastUpdatedAtString: 2020-01-30T00:04:28.382-08:00
+  initializedAtString: 2020-01-30T00:04:28.382-08:00
   entries:
   - path: Daemon Alpha\.vs\Daemon Alpha\v16\.suo
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\.vs\Daemon Alpha\v16\.suo
@@ -32,23 +32,17 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\.vs\Daemon Alpha\v16\Server\sqlite3\storage.ide-shm
     projectPath: .vs\Daemon Alpha\v16\Server\sqlite3\storage.ide-shm
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Daemon Alpha\.vs\Daemon Alpha\v16\Server\sqlite3\storage.ide-wal
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\.vs\Daemon Alpha\v16\Server\sqlite3\storage.ide-wal
     projectPath: .vs\Daemon Alpha\v16\Server\sqlite3\storage.ide-wal
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assembly-CSharp.csproj
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Daemon Alpha\Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+  - path: Daemon Alpha\Assets\Scenes\SampleScene.unity
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -58,63 +52,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Daemon Alpha\Assets\Scripts\QueueTest.cs
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\QueueTest.cs
-    projectPath: Assets\Scripts\QueueTest.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Scripts\QueueTest.cs.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\QueueTest.cs.meta
-    projectPath: Assets\Scripts\QueueTest.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Daemon Alpha\Assets\Scripts\SheetFileManager.cs
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\SheetFileManager.cs
     projectPath: Assets\Scripts\SheetFileManager.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Scripts\SheetFileManager.cs.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\SheetFileManager.cs.meta
-    projectPath: Assets\Scripts\SheetFileManager.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Scripts\Unit Tests.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\Unit Tests.meta
-    projectPath: Assets\Scripts\Unit Tests.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Daemon Alpha\Assets\Scripts\Unit Tests\FileManagerTests.cs
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\Unit Tests\FileManagerTests.cs
     projectPath: Assets\Scripts\Unit Tests\FileManagerTests.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Scripts\Unit Tests\FileManagerTests.cs.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\Unit Tests\FileManagerTests.cs.meta
-    projectPath: Assets\Scripts\Unit Tests\FileManagerTests.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Scripts\Unit Tests\QueueTest.cs
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\Unit Tests\QueueTest.cs
-    projectPath: Assets\Scripts\Unit Tests\QueueTest.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Scripts\Unit Tests\QueueTest.cs.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\Unit Tests\QueueTest.cs.meta
-    projectPath: Assets\Scripts\Unit Tests\QueueTest.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Daemon Alpha\Library\assetDatabase3
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\assetDatabase3
     projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\CurrentLayout-default.dwlt
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -122,83 +80,35 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\gfu\cache\branches.yaml
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\gfu\cache\gitlocks.yaml
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\gfu\cache\gitlog.yaml
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Daemon Alpha\Library\gfu\cache\gitstatusentries.yaml
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Daemon Alpha\Library\gfu\cache\gittrackingstatus.yaml
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Daemon Alpha\Library\gfu\cache\repoinfo.yaml
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\metadata\1f\1f0bc78bb89141c4fb5b1bc3a6088ea7
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\metadata\1f\1f0bc78bb89141c4fb5b1bc3a6088ea7
-    projectPath: Library\metadata\1f\1f0bc78bb89141c4fb5b1bc3a6088ea7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\metadata\1f\1f0bc78bb89141c4fb5b1bc3a6088ea7.info
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\metadata\1f\1f0bc78bb89141c4fb5b1bc3a6088ea7.info
-    projectPath: Library\metadata\1f\1f0bc78bb89141c4fb5b1bc3a6088ea7.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Daemon Alpha\Library\metadata\81\81277f3990433394b892b88e135ea1de
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\metadata\81\81277f3990433394b892b88e135ea1de
     projectPath: Library\metadata\81\81277f3990433394b892b88e135ea1de
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\metadata\81\81277f3990433394b892b88e135ea1de.info
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\metadata\81\81277f3990433394b892b88e135ea1de.info
-    projectPath: Library\metadata\81\81277f3990433394b892b88e135ea1de.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Daemon Alpha\Library\metadata\b9\b9d1ad435de12f3429569c0e085cf87f
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\metadata\b9\b9d1ad435de12f3429569c0e085cf87f
     projectPath: Library\metadata\b9\b9d1ad435de12f3429569c0e085cf87f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Daemon Alpha\Library\metadata\bd\bdd265831e62f6c4d8f9fb74a9777145
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\metadata\bd\bdd265831e62f6c4d8f9fb74a9777145
-    projectPath: Library\metadata\bd\bdd265831e62f6c4d8f9fb74a9777145
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Daemon Alpha\Library\metadata\bd\bdd265831e62f6c4d8f9fb74a9777145.info
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\metadata\bd\bdd265831e62f6c4d8f9fb74a9777145.info
-    projectPath: Library\metadata\bd\bdd265831e62f6c4d8f9fb74a9777145.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -206,14 +116,8 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\metadata\eb\ebd325e80979f7a46afface04fa25290
     projectPath: Library\metadata\eb\ebd325e80979f7a46afface04fa25290
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\metadata\eb\ebd325e80979f7a46afface04fa25290.info
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\metadata\eb\ebd325e80979f7a46afface04fa25290.info
-    projectPath: Library\metadata\eb\ebd325e80979f7a46afface04fa25290.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Daemon Alpha\Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -226,27 +130,141 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Daemon Alpha\Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Daemon Alpha\Library\StateCache\Hierarchy\c682a6-mainStage.json
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\StateCache\Hierarchy\c682a6-mainStage.json
     projectPath: Library\StateCache\Hierarchy\c682a6-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Daemon Alpha\Library\StateCache\SceneView\2a08d7-mainStage.json
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\StateCache\SceneView\2a08d7-mainStage.json
-    projectPath: Library\StateCache\SceneView\2a08d7-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Daemon Alpha\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Daemon Alpha\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -254,17 +272,5 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-341080d5829bc98458003f6114ad8158
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-341080d5829bc98458003f6114ad8158
-    projectPath: Temp\UnityTempFile-341080d5829bc98458003f6114ad8158
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-e09eca80a84aac343991c231290a2985
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-e09eca80a84aac343991c231290a2985
-    projectPath: Temp\UnityTempFile-e09eca80a84aac343991c231290a2985
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3

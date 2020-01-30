@@ -29,5 +29,23 @@ public class InfoSheet
         return name;
     }
 
-    
+    public void setName(string n)
+    {
+        name = n;
+    }
+
+    public void addText(string name, string text, float x, float y, float width, float height)
+    {
+        textFields.Add(name, (text, x, y, width, height));
+    }
+
+    public void addStatic(string name, float val, float x, float y, float width, float height)
+    {
+        staticNumericalFields.Add(name, (val, x, y, width, height));
+    }
+
+    public void addDynamic(string name, float val, float max, float x, float y, float width, float height)
+    {
+        dynamicNumericalFields.Add(name, (val, max, x, y, width, height));
+    }
 }

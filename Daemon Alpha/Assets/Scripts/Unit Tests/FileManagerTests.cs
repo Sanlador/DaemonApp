@@ -18,6 +18,10 @@ public class FileManagerTests : MonoBehaviour
         sheet.textFields.Add("Text2", ("Test", 1, 2, 3, 4));
         sheet.textFields.Add("Text3", ("Test", 1, 2, 3, 4));
 
-        //SheetFileManager.saveSheetToFile(sheet);
+        SheetFileManager.saveSheetToFile(sheet);
+
+        InfoSheet sheet2 = SheetFileManager.loadSheetFromFile(@"Sheets\" + "1" + ".st");
+        sheet2.setName("2");
+        SheetFileManager.saveSheetToFile(sheet2);
     }
 }
