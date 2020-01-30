@@ -68,43 +68,43 @@
     <None Include="Assets\Plugins\GitHub\Editor\credits.txt" />
     <None Include="Assets\Plugins\GitHub\Editor\eula.txt" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -308,22 +308,22 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Api.45">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Logging">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Unity.45">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.UnityShim">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
     </Reference>
     <Reference Include="sfw.net">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>H:/Unity Projects/Daemon Alpha/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

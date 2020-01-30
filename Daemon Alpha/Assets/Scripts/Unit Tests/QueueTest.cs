@@ -10,10 +10,10 @@ public class QueueTest : MonoBehaviour
     void Start()
     {
         Queue queue = new Queue();
-        InfoSheet sheet = new InfoSheet();
-        sheet.dynamicNumericalFields.Add("Dynamic1", (1, 2, 3, 4, 5));
-        sheet.dynamicNumericalFields.Add("Dynamic2", (1, 2, 3, 4, 5));
-        sheet.dynamicNumericalFields.Add("Dynamic3", (1, 2, 3, 4, 5));
+        InfoSheet sheet = new InfoSheet("1");
+        sheet.dynamicNumericalFields.Add("Dynamic1", (1, 2, 3, 4, 5, 6));
+        sheet.dynamicNumericalFields.Add("Dynamic2", (1, 2, 3, 4, 5, 6));
+        sheet.dynamicNumericalFields.Add("Dynamic3", (1, 2, 3, 4, 5, 6));
         sheet.staticNumericalFields.Add("Static1", (5, 2, 3, 4, 5));
         sheet.staticNumericalFields.Add("Static2", (1, 2, 3, 4, 5));
         sheet.staticNumericalFields.Add("Static3", (1, 2, 3, 4, 5));
@@ -22,10 +22,10 @@ public class QueueTest : MonoBehaviour
         sheet.textFields.Add("Text3", ("Test", 1, 2, 3, 4));
 
 
-        InfoSheet sheet2 = new InfoSheet();
-        sheet2.dynamicNumericalFields.Add("Dynamic1", (1, 2, 3, 4, 5));
-        sheet2.dynamicNumericalFields.Add("Dynamic2", (1, 2, 3, 4, 5));
-        sheet2.dynamicNumericalFields.Add("Dynamic3", (1, 2, 3, 4, 5));
+        InfoSheet sheet2 = new InfoSheet("2");
+        sheet2.dynamicNumericalFields.Add("Dynamic1", (1, 2, 3, 4, 5, 6));
+        sheet2.dynamicNumericalFields.Add("Dynamic2", (1, 2, 3, 4, 5, 6));
+        sheet2.dynamicNumericalFields.Add("Dynamic3", (1, 2, 3, 4, 5, 6));
         sheet2.staticNumericalFields.Add("Static1", (3, 2, 3, 4, 5));
         sheet2.staticNumericalFields.Add("Static2", (1, 2, 3, 4, 5));
         sheet2.staticNumericalFields.Add("Static3", (1, 2, 3, 4, 5));
@@ -33,10 +33,10 @@ public class QueueTest : MonoBehaviour
         sheet2.textFields.Add("Text2", ("Test", 1, 2, 3, 4));
         sheet2.textFields.Add("Text3", ("Test", 1, 2, 3, 4));
 
-        InfoSheet sheet3 = new InfoSheet();
-        sheet3.dynamicNumericalFields.Add("Dynamic1", (1, 2, 3, 4, 5));
-        sheet3.dynamicNumericalFields.Add("Dynamic2", (1, 2, 3, 4, 5));
-        sheet3.dynamicNumericalFields.Add("Dynamic3", (1, 2, 3, 4, 5));
+        InfoSheet sheet3 = new InfoSheet("3");
+        sheet3.dynamicNumericalFields.Add("Dynamic1", (1, 2, 3, 4, 5, 6));
+        sheet3.dynamicNumericalFields.Add("Dynamic2", (1, 2, 3, 4, 5, 6));
+        sheet3.dynamicNumericalFields.Add("Dynamic3", (1, 2, 3, 4, 5, 6));
         sheet3.staticNumericalFields.Add("Static1", (1, 2, 3, 4, 5));
         sheet3.staticNumericalFields.Add("Static2", (1, 2, 3, 4, 5));
         sheet3.staticNumericalFields.Add("Static3", (1, 2, 3, 4, 5));
@@ -54,10 +54,10 @@ public class QueueTest : MonoBehaviour
         queue.orderBy("Static1");
 
 
-        InfoSheet sheet4 = new InfoSheet();
-        sheet4.dynamicNumericalFields.Add("Dynamic1", (1, 2, 3, 4, 5));
-        sheet4.dynamicNumericalFields.Add("Dynamic2", (1, 2, 3, 4, 5));
-        sheet4.dynamicNumericalFields.Add("Dynamic3", (1, 2, 3, 4, 5));
+        InfoSheet sheet4 = new InfoSheet("4");
+        sheet4.dynamicNumericalFields.Add("Dynamic1", (1, 2, 3, 4, 5, 6));
+        sheet4.dynamicNumericalFields.Add("Dynamic2", (1, 2, 3, 4, 5, 6));
+        sheet4.dynamicNumericalFields.Add("Dynamic3", (1, 2, 3, 4, 5, 6));
         sheet4.staticNumericalFields.Add("Static1", (4, 2, 3, 4, 5));
         sheet4.staticNumericalFields.Add("Static2", (1, 2, 3, 4, 5));
         sheet4.staticNumericalFields.Add("Static3", (1, 2, 3, 4, 5));
