@@ -1161,10 +1161,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1334763250}
     m_Modifications:
-    - target: {fileID: 1951936379, guid: 1ba2039ceb26a0db78faa1c7caf62e93, type: 3}
-      propertyPath: m_Text
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4733877023626330235, guid: 1ba2039ceb26a0db78faa1c7caf62e93,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1275,10 +1271,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Console
       objectReference: {fileID: 0}
-    - target: {fileID: 7397842174062599349, guid: 1ba2039ceb26a0db78faa1c7caf62e93,
-        type: 3}
-      propertyPath: dropLocation
-      value: 
-      objectReference: {fileID: 471761822}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ba2039ceb26a0db78faa1c7caf62e93, type: 3}
