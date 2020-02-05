@@ -9,22 +9,27 @@ public class Queue
     private int index;
     private string operatingKey;
 
+
     public Queue()
     {
         queue = new List<QueueItem>();
-    }
+	}
 
-    void goToStart()
+	public int getIndex(){
+		return index;
+	}
+
+	public void goToStart()
     {
         index = 0;
     }
 
-    void goToEnd()
+	public void goToEnd()
     {
         index = queue.Count - 1;
     }
 
-    void moveForward()
+	public void moveForward()
     {
         index++;
         if(index > queue.Count - 1)
@@ -34,7 +39,7 @@ public class Queue
             {
                 if (item.getType() == 1)
                     item.deccrementCounter();
-                if (item.notify() != "")
+				if (!item.notify().Equals(""))
                 {
                     //place notification action here
                 }
@@ -42,7 +47,7 @@ public class Queue
         }
     }
 
-    void moveBack()
+	public void moveBack()
     {
         index--;
         if (index < 0)
@@ -60,7 +65,7 @@ public class Queue
         }
     }
 
-    public void addToQueue(QueueItem item)
+	public void addToQueue(QueueItem item)
     {
         if (null == operatingKey)
             queue.Add(item);
@@ -97,6 +102,16 @@ public class Queue
             queue.Add(item);
         }
     }
+
+
+	public void removeCurrentItem(){
+		queue.RemoveAt(index);
+		if(queue.Count == 0){
+			index = 0;
+			return;
+		}
+		index = (index + queue.Count)%queue.Count;
+	}
 
     public void orderBy(string key)
     {
