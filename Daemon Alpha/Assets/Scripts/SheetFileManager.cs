@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using System.IO;
 
-public class SheetFileManager 
+public class SheetFileManager
 {
     public static void saveSheetToFile(InfoSheet sheet)
     {
@@ -12,21 +12,24 @@ public class SheetFileManager
         string fileText = "";
         fileText += sheet.getName() + "\n";
 
-        foreach(KeyValuePair<string, (string, float, float, float, float)> tuple in dictText)
+        foreach (KeyValuePair<string, (string, float, float, float, float)> tuple in dictText)
         {
-            fileText += "text,"+ tuple.Key + "," + tuple.Value.Item1 + "," + tuple.Value.Item2 + "," + tuple.Value.Item3 + "," + tuple.Value.Item4 + "," + tuple.Value.Item5 + "\n";
+            if (tuple.Key != "")
+                fileText += "text," + tuple.Key + "," + tuple.Value.Item1 + "," + tuple.Value.Item2 + "," + tuple.Value.Item3 + "," + tuple.Value.Item4 + "," + tuple.Value.Item5 + "\n";
         }
 
         Dictionary<string, (float, float, float, float, float)> dictStatic = sheet.staticNumericalFields;
         foreach (KeyValuePair<string, (float, float, float, float, float)> tuple in dictStatic)
         {
-            fileText += "static," + tuple.Key + "," + tuple.Value.Item1 + "," + tuple.Value.Item2 + "," + tuple.Value.Item3 + "," + tuple.Value.Item4 + "," + tuple.Value.Item5 + "\n";
+            if (tuple.Key != "")
+                fileText += "static," + tuple.Key + "," + tuple.Value.Item1 + "," + tuple.Value.Item2 + "," + tuple.Value.Item3 + "," + tuple.Value.Item4 + "," + tuple.Value.Item5 + "\n";
         }
 
         Dictionary<string, (float, float, float, float, float, float)> dictDynamic = sheet.dynamicNumericalFields;
         foreach (KeyValuePair<string, (float, float, float, float, float, float)> tuple in dictDynamic)
         {
-            fileText += "dynamic," + tuple.Key + "," + tuple.Value.Item1 + "," + tuple.Value.Item2 + "," + tuple.Value.Item3 + "," + tuple.Value.Item4 + "," + tuple.Value.Item5 + "," + tuple.Value.Item6 + "\n";
+            if (tuple.Key != "")
+                fileText += "dynamic," + tuple.Key + "," + tuple.Value.Item1 + "," + tuple.Value.Item2 + "," + tuple.Value.Item3 + "," + tuple.Value.Item4 + "," + tuple.Value.Item5 + "," + tuple.Value.Item6 + "\n";
         }
 
         fileText += "End file";
@@ -38,6 +41,7 @@ public class SheetFileManager
 
         }
         File.WriteAllText(filePath, fileText);
+        Debug.Log("Saved");
         //Debug.Log(fileText);
     }
 
@@ -88,7 +92,7 @@ public class SheetFileManager
                     float y = float.Parse(split[5]);
                     float width = float.Parse(split[6]);
                     float height = float.Parse(split[7]);
-                    sheet.addStatic(name, val, x, y, height, width);
+                    sheet.addDynamic(name, val, max, x, y, height, width);
                 }
             }
         }

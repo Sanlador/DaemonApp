@@ -29,6 +29,7 @@ public class QueueItem
     public QueueItem(string message)
     {
         notification = message;
+		itemType = 2;
     }
 
     public int getType()
@@ -72,7 +73,18 @@ public class QueueItem
     public string getNotification()
     {
         return notification;
-    }
+	}
+
+	public int getCounter()
+	{
+		return counter;
+	}
+
+
+	public string getName()
+	{
+		return entity.getName();
+	}
 
     public void deccrementCounter()
     {

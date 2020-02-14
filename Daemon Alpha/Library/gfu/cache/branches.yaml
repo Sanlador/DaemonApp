@@ -13,13 +13,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-01-28T15:48:33.766-08:00
-  initializedAtString: 2020-01-28T15:48:33.755-08:00
+  lastUpdatedAtString: 2020-02-05T07:04:53.634-08:00
+  initializedAtString: 2020-02-05T07:04:53.589-08:00
   localBranches:
+  - name: Field-Placement
+    tracking: origin/Field-Placement
+  - name: Field-Size
+    tracking: origin/Field-Size
+  - name: Integration
+    tracking: origin/Integration
   - name: master
     tracking: origin/master
+  - name: SheetUI
+    tracking: origin/SheetUI
+  - name: UI-TabPanels
+    tracking: origin/UI-TabPanels
+  - name: ui_clean
+    tracking: origin/ui_clean
+  - name: user_interface
+    tracking: origin/user_interface
   remoteBranches:
+  - name: origin/console_widget
+    tracking: '[None]'
+  - name: origin/Field-Placement
+    tracking: '[None]'
+  - name: origin/Field-Size
+    tracking: '[None]'
+  - name: origin/Integration
+    tracking: '[None]'
   - name: origin/master
+    tracking: '[None]'
+  - name: origin/SheetUI
+    tracking: '[None]'
+  - name: origin/UI-TabPanels
+    tracking: '[None]'
+  - name: origin/ui_clean
+    tracking: '[None]'
+  - name: origin/user_interface
     tracking: '[None]'
   remotes:
   - name: origin
@@ -31,22 +61,112 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - Field-Placement
+    - Field-Size
+    - Integration
     - master
+    - SheetUI
+    - UI-TabPanels
+    - ui_clean
+    - user_interface
     values:
+    - name: Field-Placement
+      remote:
+        name: origin
+        url: https://github.com/Sanlador/DaemonApp.git
+      trackingBranch: Field-Placement
+    - name: Field-Size
+      remote:
+        name: origin
+        url: https://github.com/Sanlador/DaemonApp.git
+      trackingBranch: Field-Size
+    - name: Integration
+      remote:
+        name: origin
+        url: https://github.com/Sanlador/DaemonApp.git
+      trackingBranch: Integration
     - name: master
       remote:
         name: origin
         url: https://github.com/Sanlador/DaemonApp.git
       trackingBranch: master
+    - name: SheetUI
+      remote:
+        name: origin
+        url: https://github.com/Sanlador/DaemonApp.git
+      trackingBranch: SheetUI
+    - name: UI-TabPanels
+      remote:
+        name: origin
+        url: https://github.com/Sanlador/DaemonApp.git
+      trackingBranch: UI-TabPanels
+    - name: ui_clean
+      remote:
+        name: origin
+        url: https://github.com/Sanlador/DaemonApp.git
+      trackingBranch: ui_clean
+    - name: user_interface
+      remote:
+        name: origin
+        url: https://github.com/Sanlador/DaemonApp.git
+      trackingBranch: user_interface
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
+      - console_widget
+      - Field-Placement
+      - Field-Size
+      - Integration
       - master
+      - SheetUI
+      - UI-TabPanels
+      - ui_clean
+      - user_interface
     subKeyValues:
     - Values:
+      - name: console_widget
+        remote:
+          name: origin
+          url: https://github.com/Sanlador/DaemonApp.git
+        trackingBranch: 
+      - name: Field-Placement
+        remote:
+          name: origin
+          url: https://github.com/Sanlador/DaemonApp.git
+        trackingBranch: 
+      - name: Field-Size
+        remote:
+          name: origin
+          url: https://github.com/Sanlador/DaemonApp.git
+        trackingBranch: 
+      - name: Integration
+        remote:
+          name: origin
+          url: https://github.com/Sanlador/DaemonApp.git
+        trackingBranch: 
       - name: master
+        remote:
+          name: origin
+          url: https://github.com/Sanlador/DaemonApp.git
+        trackingBranch: 
+      - name: SheetUI
+        remote:
+          name: origin
+          url: https://github.com/Sanlador/DaemonApp.git
+        trackingBranch: 
+      - name: UI-TabPanels
+        remote:
+          name: origin
+          url: https://github.com/Sanlador/DaemonApp.git
+        trackingBranch: 
+      - name: ui_clean
+        remote:
+          name: origin
+          url: https://github.com/Sanlador/DaemonApp.git
+        trackingBranch: 
+      - name: user_interface
         remote:
           name: origin
           url: https://github.com/Sanlador/DaemonApp.git
