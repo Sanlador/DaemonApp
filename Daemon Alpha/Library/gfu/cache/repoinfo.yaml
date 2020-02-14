@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-02-13T18:16:46.058-08:00
-  initializedAtString: 2020-02-13T18:16:46.058-08:00
+  lastUpdatedAtString: 2020-02-13T19:32:30.259-08:00
+  initializedAtString: 2020-02-13T19:32:30.259-08:00
   currentGitRemote:
     name: origin
     url: https://github.com/Sanlador/DaemonApp.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: Interface-Update
+    tracking: 
   currentConfigBranch:
-    name: master
+    name: Interface-Update
     remote:
-      name: origin
-      url: https://github.com/Sanlador/DaemonApp.git
-    trackingBranch: master
+      name: 
+      url: 
+    trackingBranch: 
   currentConfigRemote:
     name: origin
     url: https://github.com/Sanlador/DaemonApp.git
