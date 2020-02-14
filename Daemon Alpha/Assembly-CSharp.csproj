@@ -79,10 +79,18 @@
     <Compile Include="Assets\Scripts\Timeline.cs" />
     <Compile Include="Assets\Scripts\Unit Tests\FileManagerTests.cs" />
     <Compile Include="Assets\Scripts\Unit Tests\QueueTest.cs" />
+    <Compile Include="Assets\SimpleWebBrowser\Demo\SampleJSQueryHandler.cs" />
+    <Compile Include="Assets\SimpleWebBrowser\Scripts\BrowserEngine.cs" />
+    <Compile Include="Assets\SimpleWebBrowser\Scripts\BrowserUI.cs" />
+    <Compile Include="Assets\SimpleWebBrowser\Scripts\WebBrowser.cs" />
+    <Compile Include="Assets\SimpleWebBrowser\Scripts\WebBrowser2D.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\SimpleWebBrowser\PluginServer\x64\log4net.xml" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\SimpleWebBrowser\PluginServer\x64\log-file.txt" />
+    <None Include="Assets\SimpleWebBrowser\PluginServer\x86\log4net.xml" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -306,6 +314,12 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="MessageLibrary">
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Assets/SimpleWebBrowser/Plugins/MessageLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SharedMemory">
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Assets/SimpleWebBrowser/Plugins/x86_x64/SharedMemory.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

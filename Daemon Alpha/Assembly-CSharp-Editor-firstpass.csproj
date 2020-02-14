@@ -322,6 +322,12 @@
     <Reference Include="sfw.net">
       <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
+    <Reference Include="MessageLibrary">
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Assets/SimpleWebBrowser/Plugins/MessageLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SharedMemory">
+      <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Assets/SimpleWebBrowser/Plugins/x86_x64/SharedMemory.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>H:/Unity Projects/Daemon/Daemon Alpha/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
