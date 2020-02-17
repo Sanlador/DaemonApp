@@ -48,25 +48,25 @@ public class SheetController : MonoBehaviour, IPointerClickHandler
     public void setText()
     {
         pointerMode = pointer.Text;
-        print("Switching mode to text");
+        //print("Switching mode to text");
     }
 
     public void setLabel()
     {
         pointerMode = pointer.Label;
-        print("Switching mode to Label");
+        //print("Switching mode to Label");
     }
 
     public void setStatic()
     {
         pointerMode = pointer.Static;
-        print("Switching mode to static");
+        //print("Switching mode to static");
     }
 
     public void setDynamic()
     {
         pointerMode = pointer.Dynamic;
-        print("Switching mode to dynamic");
+        //print("Switching mode to dynamic");
     }
 
     public void OnPointerClick(PointerEventData eventData)
