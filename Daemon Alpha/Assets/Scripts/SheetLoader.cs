@@ -42,9 +42,10 @@ public class SheetLoader : MonoBehaviour
         
         foreach(KeyValuePair <string, (float, float, float, float, float)> tuple in sheet.getStaticNumericalFields())
         {
+            Debug.Log(tuple);
             field = Instantiate(stat, transform);
-            field.GetComponent<Holder>().held.GetComponent<Text>().text = tuple.Value.Item1.ToString();
             field.GetComponent<Text>().text = tuple.Key;
+            field.GetComponent<Holder>().held.GetComponent<Text>().text = tuple.Value.Item1.ToString();
             field.GetComponent<RectTransform>().localPosition = new Vector3(tuple.Value.Item2, tuple.Value.Item3, 0);
         }
 
@@ -58,9 +59,8 @@ public class SheetLoader : MonoBehaviour
         }
     }
 
-    public void load()
+    public void load(string filename)
     {
-        string filename = f.GetComponent<Text>().text;
         generateSheet(@"sheets\" + filename + ".st");
     }
 }

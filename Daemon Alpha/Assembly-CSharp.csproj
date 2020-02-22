@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ConsoleWidget.cs" />
+    <Compile Include="Assets\Scripts\DeleteObject.cs" />
     <Compile Include="Assets\Scripts\DiceExpr.cs" />
     <Compile Include="Assets\Scripts\DragHandler.cs" />
     <Compile Include="Assets\Scripts\DragUITarget.cs" />
@@ -71,8 +72,10 @@
     <Compile Include="Assets\Scripts\FieldManager.cs" />
     <Compile Include="Assets\Scripts\Holder.cs" />
     <Compile Include="Assets\Scripts\InfoSheet.cs" />
+    <Compile Include="Assets\Scripts\ListFiles.cs" />
     <Compile Include="Assets\Scripts\Queue.cs" />
     <Compile Include="Assets\Scripts\QueueItem.cs" />
+    <Compile Include="Assets\Scripts\SetResultName.cs" />
     <Compile Include="Assets\Scripts\SheetController.cs" />
     <Compile Include="Assets\Scripts\SheetFileManager.cs" />
     <Compile Include="Assets\Scripts\SheetLoader.cs" />

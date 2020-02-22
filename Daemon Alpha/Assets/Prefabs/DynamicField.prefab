@@ -1238,7 +1238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02cdb5a023ebbf34abd34d5645d85e88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropLocation: {fileID: 5504178463307059046}
+  dropLocation: {fileID: 0}
 --- !u!114 &4158741069114279299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1251,10 +1251,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8c0b7662f0235b4f8abd7c43102bb49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 7678218363750207367, guid: 19312640e72cf87458fcfcd99d7d89ad,
-    type: 3}
-  valText: {fileID: 7678218363750207367, guid: 19312640e72cf87458fcfcd99d7d89ad, type: 3}
-  maxText: {fileID: 7678218363750207367, guid: 19312640e72cf87458fcfcd99d7d89ad, type: 3}
+  nameText: {fileID: 5504178461994770319}
+  valText: {fileID: 5504178463108673459}
+  maxText: {fileID: 5504178463571214075}
   noteText: {fileID: 0}
 --- !u!1 &5504178463571214075
 GameObject:

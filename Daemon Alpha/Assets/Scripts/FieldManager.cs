@@ -43,7 +43,6 @@ public class FieldManager : MonoBehaviour
             fieldName = nameText.GetComponent<Text>().text;
             if ("label" == type)
             {
-                print(fieldName);
                 sheet.addText(fieldName, "", x, y, 0, 0);
             }
             else if ("dynamic" == type)
@@ -124,6 +123,8 @@ public class FieldManager : MonoBehaviour
     {
         x = GetComponent<RectTransform>().anchoredPosition.x;
         y = GetComponent<RectTransform>().anchoredPosition.y;
+        print(x);
+        print(y);
         if ("label" == type)
         {
             sheet.changeText(fieldName, "", x, y, width, height);

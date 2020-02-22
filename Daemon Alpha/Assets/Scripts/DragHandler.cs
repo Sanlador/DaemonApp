@@ -39,6 +39,7 @@ public class DragHandler : MonoBehaviour, IDragHandler, IEndDragHandler
         if (target.pointerDrop())
         {
             Debug.Log("Placing over applicable UI element");
+            GetComponent<FieldManager>().changeCoords();
         }
         else
         {
