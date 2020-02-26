@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Holder.cs" />
     <Compile Include="Assets\Scripts\InfoSheet.cs" />
     <Compile Include="Assets\Scripts\ListFiles.cs" />
+    <Compile Include="Assets\Scripts\LoadSheetFromSelector.cs" />
     <Compile Include="Assets\Scripts\Queue.cs" />
     <Compile Include="Assets\Scripts\QueueItem.cs" />
     <Compile Include="Assets\Scripts\SetResultName.cs" />

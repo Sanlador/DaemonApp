@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class ListFiles : MonoBehaviour
 {
     public string folder;
-    public GameObject templateResult, inputContents;
+    public GameObject templateResult, inputContents, sheet, parent;
     List<GameObject> resultList;
     List<string> fileNames;
 
@@ -22,10 +22,12 @@ public class ListFiles : MonoBehaviour
             string sheetName = name.Remove(name.IndexOf(rm), rm.Length);
             sheetName = sheetName.Substring(0, sheetName.Length - 3);
             GameObject result = Instantiate(templateResult, transform.position, Quaternion.identity);
+            result.GetComponent< LoadSheetFromSelector>().parent = parent;
             resultList.Add(result);
             fileNames.Add(sheetName);
             result.transform.SetParent(gameObject.transform);
             result.GetComponent<SetResultName>().setName(sheetName);
+            result.GetComponent<LoadSheetFromSelector>().sheet = sheet;
         }
     }
 

@@ -61,6 +61,7 @@ public class FieldManager : MonoBehaviour
         }
         else
         {
+            print(nameText.GetComponent<Text>().text);
             if ("label" == type)
             {
                 sheet.removeField(fieldName, "text");
@@ -86,7 +87,7 @@ public class FieldManager : MonoBehaviour
                 sheet.addText(fieldName, text, x, y, 1, 1);
             }
         }
-        //sheet.dump();
+        //
     }
 
     public void setVal()
@@ -141,12 +142,19 @@ public class FieldManager : MonoBehaviour
         {
             sheet.changeText(fieldName, text, x, y, width, height);
         }
-        sheet.dump();
+        print(fieldName);
     }
 
     public void removeField()
     {
         sheet.removeField(fieldName, type);
         Destroy(gameObject);
+    }
+
+    public void setSheet(InfoSheet s)
+    {
+        sheet = s;
+        set = true;
+        setName();
     }
 }

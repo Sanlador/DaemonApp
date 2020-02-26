@@ -55,6 +55,11 @@ public class InfoSheet
         instanceName = n;
     }
 
+    public string getInstance()
+    {
+        return instanceName;
+    }
+
     public void addText(string name, string text, float x, float y, float width, float height)
     {
         textFields.Add(name, (text, x, y, width, height));

@@ -6,7 +6,7 @@ using System.IO;
 
 public class SheetFileManager
 {
-    public static void saveSheetToFile(InfoSheet sheet)
+    public static void saveSheetToFile(InfoSheet sheet, bool instance = false)
     {
         Dictionary<string, (string, float, float, float, float)> dictText = sheet.textFields;
         string fileText = "";
@@ -32,8 +32,18 @@ public class SheetFileManager
                 fileText += "dynamic," + tuple.Key + "," + tuple.Value.Item1 + "," + tuple.Value.Item2 + "," + tuple.Value.Item3 + "," + tuple.Value.Item4 + "," + tuple.Value.Item5 + "," + tuple.Value.Item6 + "\n";
         }
 
+        if (instance)
+        {
+            fileText += sheet.getInstance() + "\n";
+        }
+
         fileText += "End file";
-        string filePath = @"Sheets\" + sheet.getName() + ".st";
+        string filePath;
+
+        if (instance)
+            filePath = @"Instances\" + sheet.getName() + "." + sheet.getInstance() + ".st";
+        else
+            filePath = @"Sheets\" + sheet.getName() + ".st";
 
         if (File.Exists(filePath))
         {
@@ -93,6 +103,10 @@ public class SheetFileManager
                     float width = float.Parse(split[6]);
                     float height = float.Parse(split[7]);
                     sheet.addDynamic(name, val, max, x, y, height, width);
+                }
+                else if ("End File" != line)
+                {
+                    sheet.setInstance(line);
                 }
             }
         }

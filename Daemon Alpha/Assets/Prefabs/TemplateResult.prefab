@@ -36,8 +36,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 362.8, y: 0}
-  m_SizeDelta: {x: 82.1, y: 30}
+  m_AnchoredPosition: {x: 288.20013, y: -13.399963}
+  m_SizeDelta: {x: 49.6, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7174767431802557634
 CanvasRenderer:
@@ -231,8 +231,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 158.49985, y: 0}
-  m_SizeDelta: {x: 330.5, y: 30}
+  m_AnchoredPosition: {x: 130.9, y: -13.4}
+  m_SizeDelta: {x: 270, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2767779928645911727
 CanvasRenderer:
@@ -312,7 +312,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6015967164425690191}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5852934844558155128}
+        m_MethodName: genSheetFromButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6148399453199983890
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +413,7 @@ GameObject:
   - component: {fileID: 601365519393542305}
   - component: {fileID: 7670249192460137083}
   - component: {fileID: 7999917909591142437}
+  - component: {fileID: 5852934844558155128}
   m_Layer: 8
   m_Name: TemplateResult
   m_TagString: Untagged
@@ -479,3 +491,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   title: {fileID: 2447682619312355722}
+--- !u!114 &5852934844558155128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8027744734653609724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd1702c78e629b478ca399124b8ef2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sheet: {fileID: 630914184781020693, guid: baa4e56a0c4b0444caa276d8f303e572, type: 3}
+  templateName: {fileID: 2447682619312355722}

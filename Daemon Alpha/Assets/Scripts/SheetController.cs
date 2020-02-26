@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class SheetController : MonoBehaviour, IPointerClickHandler
 {
-    public GameObject sheetName, text, staticNum, dynamicNum, thisObject, label;
+    public GameObject sheetName, text, staticNum, dynamicNum, thisObject, label, instanceName;
 
     enum pointer { normal, Text, Label, Static, Dynamic };
     pointer pointerMode = pointer.normal;
@@ -27,21 +27,32 @@ public class SheetController : MonoBehaviour, IPointerClickHandler
 
     }
 
-    public void saveSheet()
+    public void saveSheet(bool instance = false)
     {
-        n = sheetName.GetComponent<Text>().text;
-        if (n != "")
+        if (instance)
         {
-            if (!nameSet)
-            {
-                sheet.setName(n);
-            }
-            else if (n != sheetName.GetComponent<Text>().text)
-            {
-                sheet.setName(n);
-            }
+            sheet = gameObject.GetComponent<SheetLoader>().getSheet();
+            sheet.setInstance(instanceName.GetComponent<Text>().text);
             Debug.Log("Attempting save");
-            SheetFileManager.saveSheetToFile(sheet);
+            SheetFileManager.saveSheetToFile(sheet, true);
+        }
+        else
+        {
+            n = sheetName.GetComponent<Text>().text;
+            if (n != "")
+            {
+                if (!nameSet)
+                {
+                    sheet.setName(n);
+                }
+                else if (n != sheetName.GetComponent<Text>().text)
+                {
+                    sheet.setName(n);
+                }
+                Debug.Log("Attempting save");
+                SheetFileManager.saveSheetToFile(sheet);
+            }
+
         }
     }
 
