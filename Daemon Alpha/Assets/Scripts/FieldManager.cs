@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -87,7 +88,6 @@ public class FieldManager : MonoBehaviour
                 sheet.addText(fieldName, text, x, y, 1, 1);
             }
         }
-        //
     }
 
     public void setVal()
@@ -151,10 +151,62 @@ public class FieldManager : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void setSheet(InfoSheet s)
+    public void setSheet(InfoSheet s, string name, string t, float xCoord, float yCoord)
+    {
+        print("Gets here");
+        sheet = s;
+        type = "text";
+        set = true;
+        fieldName = name;
+        text = t;
+        x = xCoord;
+        y = yCoord;
+        height = 1;
+        width = 1;
+        val = max = 0;
+    }
+
+    public void setSheet(InfoSheet s, string name, float xCoord, float yCoord)
+    {
+        type = "label";
+        sheet = s;
+        set = true;
+        fieldName = name;
+        text = "";
+        x = xCoord;
+        y = yCoord;
+        height = 1;
+        width = 1;
+        val = max = 0;
+    }
+
+    public void setSheet(InfoSheet s, string name, float v, float m, float xCoord, float yCoord)
     {
         sheet = s;
         set = true;
-        setName();
+        type = "dynamic";
+        fieldName = name;
+        text = "";
+        x = xCoord;
+        y = yCoord;
+        height = 1;
+        width = 1;
+        val = Convert.ToInt32(v);
+        max = Convert.ToInt32(m);
+    }
+
+    public void setSheet(InfoSheet s, string name, float v, float xCoord, float yCoord)
+    {
+        sheet = s;
+        set = true;
+        type = "static";
+        fieldName = name;
+        text = "";
+        x = xCoord;
+        y = yCoord;
+        height = 1;
+        width = 1;
+        val = Convert.ToInt32(v);
+        max = 0;
     }
 }

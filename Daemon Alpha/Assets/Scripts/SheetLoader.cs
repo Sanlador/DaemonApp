@@ -31,12 +31,12 @@ public class SheetLoader : MonoBehaviour
                 field = Instantiate(label, transform);
                 if (template)
                 {
+                    field.GetComponent<FieldManager>().setSheet(sheet, tuple.Key, tuple.Value.Item2, tuple.Value.Item3);
                     field.GetComponent<DragHandler>().dropLocation = gameObject;
                     field.GetComponent<InputField>().text = tuple.Key;
                 }
                 else
-                {
-                    field.GetComponent<Text>().text = tuple.Key;
+                {field.GetComponent<Text>().text = tuple.Key;
                 }
                 field.GetComponent<RectTransform>().localPosition = new Vector3(tuple.Value.Item2, tuple.Value.Item3, 0);
             }
@@ -45,6 +45,7 @@ public class SheetLoader : MonoBehaviour
                 field = Instantiate(text, transform);
                 if (template)
                 {
+                    field.GetComponent<FieldManager>().setSheet(sheet, tuple.Key, tuple.Value.Item1, tuple.Value.Item2, tuple.Value.Item3);
                     field.GetComponent<DragHandler>().dropLocation = gameObject;
                     field.GetComponent<InputField>().text = tuple.Value.Item1;
                 }
@@ -58,6 +59,7 @@ public class SheetLoader : MonoBehaviour
             field = Instantiate(stat, transform);
             if (template)
             {
+                field.GetComponent<FieldManager>().setSheet(sheet, tuple.Key, tuple.Value.Item1, tuple.Value.Item2, tuple.Value.Item3);
                 field.GetComponent<DragHandler>().dropLocation = gameObject;
                 field.GetComponent<Holder>().held1.GetComponent<InputField>().text = tuple.Key;
                 field.GetComponent<InputField>().text = tuple.Value.Item1.ToString();
@@ -75,8 +77,7 @@ public class SheetLoader : MonoBehaviour
             field = Instantiate(dyn, transform);
             if (template)
             {
-                field.GetComponent<FieldManager>().setSheet(sheet);
-                template = false;
+                field.GetComponent<FieldManager>().setSheet(sheet, tuple.Key, tuple.Value.Item1, tuple.Value.Item2, tuple.Value.Item3, tuple.Value.Item4);
                 field.GetComponent<DragHandler>().dropLocation = gameObject;
                 field.GetComponent<Holder>().held2.GetComponent<InputField>().text = tuple.Key;
             }

@@ -944,3 +944,104 @@
 2020-02-25 17:03:39,678 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
 2020-02-25 17:03:39,712 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:114f75c4-79f0-4b63-b4f6-dc04ddaae485,port:8794
 2020-02-25 17:04:00,251 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 12:20:02,744 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 12:20:02,779 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:7d7aaf8d-09ef-4bde-a87c-7a14d13b196f,port:8349
+2020-02-27 12:23:44,791 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 12:23:44,827 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:064fac4d-0110-4645-b07c-0aaffd5b8f48,port:8378
+2020-02-27 12:26:21,862 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 12:31:41,091 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 12:31:41,200 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:5054caef-8736-4151-a44c-8033f5a8e531,port:8629
+2020-02-27 12:31:56,835 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 12:36:58,734 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 12:36:58,775 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:f2c3e387-63b6-440e-b285-86b46f37c599,port:8827
+2020-02-27 12:37:51,479 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 12:38:04,543 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 12:38:04,579 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:de14402a-0050-4aa2-b413-a3bf9d7df59e,port:8682
+2020-02-27 12:38:41,004 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 12:49:33,463 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 12:49:33,498 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:7c49b02c-0845-4899-a879-6392dee68525,port:8974
+2020-02-27 12:50:30,941 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 12:50:39,439 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 12:50:39,473 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:028d0b49-c8f8-4606-96a1-9aefdb9a2336,port:8208
+2020-02-27 12:51:12,328 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 12:51:21,967 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 12:51:22,001 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:d760441d-9d5a-4757-917e-2363e4c550ef,port:8120
+2020-02-27 12:51:40,398 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 12:51:49,904 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 12:51:49,937 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:3a213306-925f-46b0-abaf-32076691e433,port:8475
+2020-02-27 12:52:30,825 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 12:53:32,860 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 12:53:32,894 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:1c2607fc-06d1-4708-bd3a-8d700f3e0ad3,port:8251
+2020-02-27 12:53:43,979 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 12:54:52,705 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 12:54:52,739 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:8a40c936-6585-45b1-bc84-ff9c0d4599e2,port:8255
+2020-02-27 12:55:32,597 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 12:56:31,882 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 12:56:31,915 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:b1920994-7e1c-4b07-8329-036237e4b2be,port:8023
+2020-02-27 12:56:38,778 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 12:57:02,307 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 12:57:02,341 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:9ac1a213-2f7a-48e6-9418-03426cd08ce5,port:8800
+2020-02-27 12:58:29,328 [12] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 12:59:14,171 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 12:59:14,205 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:1157e635-22ed-4a6e-9b04-8b248d8091dd,port:8280
+2020-02-27 12:59:31,633 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 13:06:23,995 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 13:06:24,043 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:d313b7b7-1bdd-4303-abe0-3a431dfbfcd5,port:8754
+2020-02-27 13:06:41,242 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 13:06:44,921 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 13:06:44,958 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:fbbc1112-86cc-46cc-8102-5b2d2c00e28b,port:8131
+2020-02-27 13:07:29,789 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 13:07:33,449 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 13:07:33,485 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:f2e45be5-6d1b-4a65-b1a6-67c48efaab20,port:8477
+2020-02-27 13:07:48,826 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 13:08:41,625 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 13:08:41,662 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:f52cc234-9183-44c0-8738-04e4f377557f,port:8092
+2020-02-27 13:09:10,886 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 13:55:24,133 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 13:55:24,184 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:1e5a54c7-5481-4a92-83bd-7ab2a8dbb89d,port:8644
+2020-02-27 13:55:32,329 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 13:55:51,109 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 13:55:51,143 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:95fd8c69-78a9-4e85-bcde-bc21042392ff,port:8682
+2020-02-27 13:55:58,182 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 14:05:20,995 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 14:05:21,030 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:8facb8ff-de7f-4616-8765-8288cc2b7a69,port:8808
+2020-02-27 14:06:01,269 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 14:06:42,735 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 14:06:42,769 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:6a977842-f27c-4806-afa2-35632d8158c3,port:8077
+2020-02-27 14:07:13,253 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 14:07:16,451 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 14:07:16,486 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:099f114d-4e4a-4538-83e1-f16e08da13fe,port:8378
+2020-02-27 14:07:50,020 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 14:07:52,855 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 14:07:52,889 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:7254eed5-89c4-48c9-8d19-04a4641c6483,port:8152
+2020-02-27 14:08:14,021 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 14:08:35,473 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 14:08:35,507 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:e797f5bd-8bfb-4b45-bf1c-50f51f65849b,port:8173
+2020-02-27 14:09:34,057 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 14:09:39,738 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 14:09:39,774 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:fc6731c3-b88c-4d40-97f7-460906fffd3d,port:8358
+2020-02-27 14:09:56,721 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 14:10:00,337 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 14:10:00,381 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:9e7d01c9-2c06-4f39-b968-21750c59eb6f,port:8662
+2020-02-27 14:10:17,275 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 14:10:20,198 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 14:10:20,231 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:89899657-8ca9-4944-a450-ee0254fdae16,port:8029
+2020-02-27 14:10:47,664 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 14:11:01,324 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 14:11:01,358 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:bea50984-cbf3-45f0-b2c8-0a518754a0e9,port:8770
+2020-02-27 14:11:48,558 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 14:14:19,724 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 14:14:19,759 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:4889c23b-ef31-40b7-9e3f-004fadf433cb,port:8087
+2020-02-27 14:14:28,493 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 14:14:40,352 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 14:14:40,387 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:8c35fbc7-2603-4641-9f29-69a7f970efa7,port:8468
+2020-02-27 14:15:02,585 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 14:16:34,780 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 14:16:34,814 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:a93d88a4-9d4c-45b2-a0a6-02af29da6a32,port:8895
+2020-02-27 14:16:53,505 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 14:16:59,688 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 14:16:59,722 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:4c08e20c-6f7f-43ef-9c4a-dce0b8d65617,port:8942
+2020-02-27 14:17:20,181 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-02-27 14:24:24,043 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-02-27 14:24:24,077 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:http://www.google.com,memfile:da1c8e71-42e3-4284-978e-f2634ba85fed,port:8973
+2020-02-27 14:24:58,041 [3] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-02-25T17:04:01.474-08:00
-  initializedAtString: 2020-02-25T16:15:22.721-08:00
+  lastUpdatedAtString: 2020-02-27T14:25:00.693-08:00
+  initializedAtString: 2020-02-27T13:52:37.249-08:00
   entries:
   - path: Daemon Alpha\.vs\Daemon Alpha\v16\.suo
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\.vs\Daemon Alpha\v16\.suo
@@ -32,221 +32,17 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\.vs\Daemon Alpha\v16\Server\sqlite3\storage.ide-shm
     projectPath: .vs\Daemon Alpha\v16\Server\sqlite3\storage.ide-shm
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\.vs\Daemon Alpha\v16\Server\sqlite3\storage.ide-wal
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\.vs\Daemon Alpha\v16\Server\sqlite3\storage.ide-wal
     projectPath: .vs\Daemon Alpha\v16\Server\sqlite3\storage.ide-wal
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Assembly-CSharp.csproj
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Daemon Alpha\Assets\Prefabs\Dynamic.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Dynamic.prefab
-    projectPath: Assets\Prefabs\Dynamic.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\Dynamic.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Dynamic.prefab.meta
-    projectPath: Assets\Prefabs\Dynamic.prefab.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\DynamicField.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\DynamicField.prefab
-    projectPath: Assets\Prefabs\DynamicField.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\DynamicField.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\DynamicField.prefab.meta
-    projectPath: Assets\Prefabs\DynamicField.prefab.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\Fields.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields.meta
-    projectPath: Assets\Prefabs\Fields.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\Dynamic.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\Dynamic.prefab
-    projectPath: Assets\Prefabs\Fields\Dynamic.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\Dynamic.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\Dynamic.prefab.meta
-    projectPath: Assets\Prefabs\Fields\Dynamic.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\DynamicField.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\DynamicField.prefab
-    projectPath: Assets\Prefabs\Fields\DynamicField.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\DynamicField.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\DynamicField.prefab.meta
-    projectPath: Assets\Prefabs\Fields\DynamicField.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\Label.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\Label.prefab
-    projectPath: Assets\Prefabs\Fields\Label.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\Label.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\Label.prefab.meta
-    projectPath: Assets\Prefabs\Fields\Label.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\LabelField.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\LabelField.prefab
-    projectPath: Assets\Prefabs\Fields\LabelField.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\LabelField.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\LabelField.prefab.meta
-    projectPath: Assets\Prefabs\Fields\LabelField.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\Static.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\Static.prefab
-    projectPath: Assets\Prefabs\Fields\Static.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\Static.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\Static.prefab.meta
-    projectPath: Assets\Prefabs\Fields\Static.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\StaticField.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\StaticField.prefab
-    projectPath: Assets\Prefabs\Fields\StaticField.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\StaticField.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\StaticField.prefab.meta
-    projectPath: Assets\Prefabs\Fields\StaticField.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\Text 1.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\Text 1.prefab
-    projectPath: Assets\Prefabs\Fields\Text 1.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\Text 1.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\Text 1.prefab.meta
-    projectPath: Assets\Prefabs\Fields\Text 1.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\Text.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\Text.prefab
-    projectPath: Assets\Prefabs\Fields\Text.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\Text.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\Text.prefab.meta
-    projectPath: Assets\Prefabs\Fields\Text.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\TextField.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\TextField.prefab
-    projectPath: Assets\Prefabs\Fields\TextField.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Fields\TextField.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Fields\TextField.prefab.meta
-    projectPath: Assets\Prefabs\Fields\TextField.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Label.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Label.prefab
-    projectPath: Assets\Prefabs\Label.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\Label.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Label.prefab.meta
-    projectPath: Assets\Prefabs\Label.prefab.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\LabelField.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\LabelField.prefab
-    projectPath: Assets\Prefabs\LabelField.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\LabelField.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\LabelField.prefab.meta
-    projectPath: Assets\Prefabs\LabelField.prefab.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\SelectionScreen.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\SelectionScreen.prefab
-    projectPath: Assets\Prefabs\SelectionScreen.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\SelectionScreen.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\SelectionScreen.prefab.meta
-    projectPath: Assets\Prefabs\SelectionScreen.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Static.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Static.prefab
-    projectPath: Assets\Prefabs\Static.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\Static.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Static.prefab.meta
-    projectPath: Assets\Prefabs\Static.prefab.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\StaticField.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\StaticField.prefab
-    projectPath: Assets\Prefabs\StaticField.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\StaticField.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\StaticField.prefab.meta
-    projectPath: Assets\Prefabs\StaticField.prefab.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\TemplateResult.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\TemplateResult.prefab
-    projectPath: Assets\Prefabs\TemplateResult.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -254,95 +50,35 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\TemplateSheet.prefab
     projectPath: Assets\Prefabs\TemplateSheet.prefab
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\TemplateSheet.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\TemplateSheet.prefab.meta
-    projectPath: Assets\Prefabs\TemplateSheet.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Prefabs\Text 1.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Text 1.prefab
-    projectPath: Assets\Prefabs\Text 1.prefab
-    originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\Text 1.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Text 1.prefab.meta
-    projectPath: Assets\Prefabs\Text 1.prefab.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\Text.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Text.prefab
-    projectPath: Assets\Prefabs\Text.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\Text.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\Text.prefab.meta
-    projectPath: Assets\Prefabs\Text.prefab.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\TextField.prefab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\TextField.prefab
-    projectPath: Assets\Prefabs\TextField.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Assets\Prefabs\TextField.prefab.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Prefabs\TextField.prefab.meta
-    projectPath: Assets\Prefabs\TextField.prefab.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
   - path: Daemon Alpha\Assets\Scenes\SampleScene.unity
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scenes\SampleScene.unity
     projectPath: Assets\Scenes\SampleScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Daemon Alpha\Assets\Scripts\DeleteSheet.cs
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\DeleteSheet.cs
+    projectPath: Assets\Scripts\DeleteSheet.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Assets\Scripts\DeleteSheet.cs.meta
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\DeleteSheet.cs.meta
+    projectPath: Assets\Scripts\DeleteSheet.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Assets\Scripts\FieldManager.cs
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\FieldManager.cs
     projectPath: Assets\Scripts\FieldManager.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Daemon Alpha\Assets\Scripts\InfoSheet.cs
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\InfoSheet.cs
-    projectPath: Assets\Scripts\InfoSheet.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Daemon Alpha\Assets\Scripts\ListFiles.cs
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\ListFiles.cs
-    projectPath: Assets\Scripts\ListFiles.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Daemon Alpha\Assets\Scripts\LoadSheetFromSelector.cs
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\LoadSheetFromSelector.cs
     projectPath: Assets\Scripts\LoadSheetFromSelector.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Scripts\LoadSheetFromSelector.cs.meta
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\LoadSheetFromSelector.cs.meta
-    projectPath: Assets\Scripts\LoadSheetFromSelector.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Assets\Scripts\SheetController.cs
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\SheetController.cs
-    projectPath: Assets\Scripts\SheetController.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Daemon Alpha\Assets\Scripts\SheetFileManager.cs
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Assets\Scripts\SheetFileManager.cs
-    projectPath: Assets\Scripts\SheetFileManager.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -362,17 +98,29 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Instances\test.abc.st
     projectPath: Instances\test.abc.st
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Instances\test.asd.st
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Instances\test.asd.st
+    projectPath: Instances\test.asd.st
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Daemon Alpha\Instances\test.asf.st
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Instances\test.asf.st
     projectPath: Instances\test.asf.st
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Instances\test.xcvsd.st
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Instances\test.xcvsd.st
     projectPath: Instances\test.xcvsd.st
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Instances\test.xxx.st
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Instances\test.xxx.st
+    projectPath: Instances\test.xxx.st
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -382,39 +130,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Daemon Alpha\Library\Artifacts\01\014da803da7d270e4331e8cdc780e389
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\01\014da803da7d270e4331e8cdc780e389
-    projectPath: Library\Artifacts\01\014da803da7d270e4331e8cdc780e389
+  - path: Daemon Alpha\Library\Artifacts\01\01cb6f29b0e907d45aeab31859653b35
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\01\01cb6f29b0e907d45aeab31859653b35
+    projectPath: Library\Artifacts\01\01cb6f29b0e907d45aeab31859653b35
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\02\02dadf27fb99b1f0269b78790dcaef01
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\02\02dadf27fb99b1f0269b78790dcaef01
-    projectPath: Library\Artifacts\02\02dadf27fb99b1f0269b78790dcaef01
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\03\031b6eb11444a0879d3134c4109bb856
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\03\031b6eb11444a0879d3134c4109bb856
+    projectPath: Library\Artifacts\03\031b6eb11444a0879d3134c4109bb856
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\05\0520f32767d06719ea66703435b92c0e
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\05\0520f32767d06719ea66703435b92c0e
+    projectPath: Library\Artifacts\05\0520f32767d06719ea66703435b92c0e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Library\Artifacts\05\05b5e129c330a16c4dbcf34783eed7cc
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\05\05b5e129c330a16c4dbcf34783eed7cc
     projectPath: Library\Artifacts\05\05b5e129c330a16c4dbcf34783eed7cc
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\07\0727f008c8e31e223e585f5702da6106
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\07\0727f008c8e31e223e585f5702da6106
     projectPath: Library\Artifacts\07\0727f008c8e31e223e585f5702da6106
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\08\0855d440adcc12fdce1b584c397aad75
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\08\0855d440adcc12fdce1b584c397aad75
-    projectPath: Library\Artifacts\08\0855d440adcc12fdce1b584c397aad75
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\08\08c471adff3b6d2b8aa27be30a53e26c
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\08\08c471adff3b6d2b8aa27be30a53e26c
-    projectPath: Library\Artifacts\08\08c471adff3b6d2b8aa27be30a53e26c
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -422,59 +164,29 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\08\08c8a9b61ec2849fcca1b64f536de8a1
     projectPath: Library\Artifacts\08\08c8a9b61ec2849fcca1b64f536de8a1
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\09\0970324faabd7c6cd78fd731c7326241
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\09\0970324faabd7c6cd78fd731c7326241
-    projectPath: Library\Artifacts\09\0970324faabd7c6cd78fd731c7326241
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\09\09bc353524c71fd001c887ac5a56eda2
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\09\09bc353524c71fd001c887ac5a56eda2
-    projectPath: Library\Artifacts\09\09bc353524c71fd001c887ac5a56eda2
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\0a\0a083a72e5854fe54eb68e8e3e877b80
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\0a\0a083a72e5854fe54eb68e8e3e877b80
     projectPath: Library\Artifacts\0a\0a083a72e5854fe54eb68e8e3e877b80
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\0d\0d13087fbcbe991421f5adfacb854e40
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\0d\0d13087fbcbe991421f5adfacb854e40
+    projectPath: Library\Artifacts\0d\0d13087fbcbe991421f5adfacb854e40
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\0a\0ae6b3b428b1861fe4d2187c99c85a6d
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\0a\0ae6b3b428b1861fe4d2187c99c85a6d
-    projectPath: Library\Artifacts\0a\0ae6b3b428b1861fe4d2187c99c85a6d
+  - path: Daemon Alpha\Library\Artifacts\11\11283b96134defc88e2dde0f418b0709
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\11\11283b96134defc88e2dde0f418b0709
+    projectPath: Library\Artifacts\11\11283b96134defc88e2dde0f418b0709
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\0b\0bfba83fb7a785d4877f0b195f886652
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\0b\0bfba83fb7a785d4877f0b195f886652
-    projectPath: Library\Artifacts\0b\0bfba83fb7a785d4877f0b195f886652
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\0d\0dbc1a6a200e5e71bf0867f89ebebde4
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\0d\0dbc1a6a200e5e71bf0867f89ebebde4
-    projectPath: Library\Artifacts\0d\0dbc1a6a200e5e71bf0867f89ebebde4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\13\130417ab3f8b97878ecf47f758bfaf68
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\13\130417ab3f8b97878ecf47f758bfaf68
-    projectPath: Library\Artifacts\13\130417ab3f8b97878ecf47f758bfaf68
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Library\Artifacts\14\144a7ae1ba7954ce4f247708983cc5e8
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\14\144a7ae1ba7954ce4f247708983cc5e8
     projectPath: Library\Artifacts\14\144a7ae1ba7954ce4f247708983cc5e8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\14\149bc9d312b7c6888ea5a0d5e1679490
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\14\149bc9d312b7c6888ea5a0d5e1679490
-    projectPath: Library\Artifacts\14\149bc9d312b7c6888ea5a0d5e1679490
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -482,23 +194,17 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\14\14af6a53a31b7cebb6b07c4651877483
     projectPath: Library\Artifacts\14\14af6a53a31b7cebb6b07c4651877483
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\15\15274c221339ae5ad5a8eaa61bbfbdee
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\15\15274c221339ae5ad5a8eaa61bbfbdee
-    projectPath: Library\Artifacts\15\15274c221339ae5ad5a8eaa61bbfbdee
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\15\1569ad7facc6077f66b5f6a8ec371fd2
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\15\1569ad7facc6077f66b5f6a8ec371fd2
+    projectPath: Library\Artifacts\15\1569ad7facc6077f66b5f6a8ec371fd2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\15\1587ec3e7c7adf688e8fa93510fbf15b
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\15\1587ec3e7c7adf688e8fa93510fbf15b
-    projectPath: Library\Artifacts\15\1587ec3e7c7adf688e8fa93510fbf15b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\16\165b5cf18d68b779868ab6bbc69e467a
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\16\165b5cf18d68b779868ab6bbc69e467a
-    projectPath: Library\Artifacts\16\165b5cf18d68b779868ab6bbc69e467a
+  - path: Daemon Alpha\Library\Artifacts\15\157863d7cf903688498d357bc336bc92
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\15\157863d7cf903688498d357bc336bc92
+    projectPath: Library\Artifacts\15\157863d7cf903688498d357bc336bc92
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -506,47 +212,35 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\1a\1ac452349615f685d783df3fc293f05b
     projectPath: Library\Artifacts\1a\1ac452349615f685d783df3fc293f05b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\1b\1b4dc93382cc5825b3d358d0689a7a9e
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\1b\1b4dc93382cc5825b3d358d0689a7a9e
-    projectPath: Library\Artifacts\1b\1b4dc93382cc5825b3d358d0689a7a9e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\1c\1cfbc980806038f1f64807c9cf07434e
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\1c\1cfbc980806038f1f64807c9cf07434e
-    projectPath: Library\Artifacts\1c\1cfbc980806038f1f64807c9cf07434e
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\1d\1d7661826c43ffd72ce03f179fee2f3c
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\1d\1d7661826c43ffd72ce03f179fee2f3c
     projectPath: Library\Artifacts\1d\1d7661826c43ffd72ce03f179fee2f3c
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\21\213219c7dced1785cf4e4a419dcddbf9
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\21\213219c7dced1785cf4e4a419dcddbf9
-    projectPath: Library\Artifacts\21\213219c7dced1785cf4e4a419dcddbf9
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\1f\1fb0045781e7709771d8aa49236f413a
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\1f\1fb0045781e7709771d8aa49236f413a
+    projectPath: Library\Artifacts\1f\1fb0045781e7709771d8aa49236f413a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\1f\1fc926c6127c38f6c19d564a22f16a45
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\1f\1fc926c6127c38f6c19d564a22f16a45
+    projectPath: Library\Artifacts\1f\1fc926c6127c38f6c19d564a22f16a45
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Library\Artifacts\23\23a26c2760fc0533dbed68bce671e8e6
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\23\23a26c2760fc0533dbed68bce671e8e6
     projectPath: Library\Artifacts\23\23a26c2760fc0533dbed68bce671e8e6
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\23\23b7cba56d1f158215264eb849842dd5
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\23\23b7cba56d1f158215264eb849842dd5
     projectPath: Library\Artifacts\23\23b7cba56d1f158215264eb849842dd5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\24\245e60ff84321aa6060ef486abbac5e8
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\24\245e60ff84321aa6060ef486abbac5e8
-    projectPath: Library\Artifacts\24\245e60ff84321aa6060ef486abbac5e8
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -554,185 +248,53 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\25\251ab0c21336497c8aa1da4e373ec617
     projectPath: Library\Artifacts\25\251ab0c21336497c8aa1da4e373ec617
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\27\27161317d2e6f6406a839c1d2f310bbc
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\27\27161317d2e6f6406a839c1d2f310bbc
-    projectPath: Library\Artifacts\27\27161317d2e6f6406a839c1d2f310bbc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\29\29d21a70b1d0482a26436815d4d91b79
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\29\29d21a70b1d0482a26436815d4d91b79
-    projectPath: Library\Artifacts\29\29d21a70b1d0482a26436815d4d91b79
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\2a\2a0de7ae9b6fc6d9259d9f8f2d60465f
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\2a\2a0de7ae9b6fc6d9259d9f8f2d60465f
-    projectPath: Library\Artifacts\2a\2a0de7ae9b6fc6d9259d9f8f2d60465f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\2b\2be36cd0dc5b5044ccee8342300e7b90
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\2b\2be36cd0dc5b5044ccee8342300e7b90
-    projectPath: Library\Artifacts\2b\2be36cd0dc5b5044ccee8342300e7b90
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\2c\2c8133feb1b2f39cd33fe4f34851a18a
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\2c\2c8133feb1b2f39cd33fe4f34851a18a
-    projectPath: Library\Artifacts\2c\2c8133feb1b2f39cd33fe4f34851a18a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\2d\2d457e7dc19f6346c7bf6e8da0412015
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\2d\2d457e7dc19f6346c7bf6e8da0412015
-    projectPath: Library\Artifacts\2d\2d457e7dc19f6346c7bf6e8da0412015
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\2e\2ec5c1190ea955fbceffbbc99b3e20e9
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\2e\2ec5c1190ea955fbceffbbc99b3e20e9
-    projectPath: Library\Artifacts\2e\2ec5c1190ea955fbceffbbc99b3e20e9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\2f\2f300a4fc7d8d465662f25db711128a8
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\2f\2f300a4fc7d8d465662f25db711128a8
-    projectPath: Library\Artifacts\2f\2f300a4fc7d8d465662f25db711128a8
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\2f\2f4a8af28d68ffa6509b1ba75dff52fa
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\2f\2f4a8af28d68ffa6509b1ba75dff52fa
     projectPath: Library\Artifacts\2f\2f4a8af28d68ffa6509b1ba75dff52fa
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\2f\2f5f1d9a0497db789b04243a8a2de512
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\2f\2f5f1d9a0497db789b04243a8a2de512
-    projectPath: Library\Artifacts\2f\2f5f1d9a0497db789b04243a8a2de512
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\2f\2ff41ddbcbe4860aaf850b091a1a2c6b
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\2f\2ff41ddbcbe4860aaf850b091a1a2c6b
-    projectPath: Library\Artifacts\2f\2ff41ddbcbe4860aaf850b091a1a2c6b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\31\317111e764b1644078acdf6fda4652cb
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\31\317111e764b1644078acdf6fda4652cb
-    projectPath: Library\Artifacts\31\317111e764b1644078acdf6fda4652cb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\38\380dead2376ab531eddaddc139b3bc22
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\38\380dead2376ab531eddaddc139b3bc22
-    projectPath: Library\Artifacts\38\380dead2376ab531eddaddc139b3bc22
+  - path: Daemon Alpha\Library\Artifacts\2f\2f8ecffd7a0b8af14db3618d5ef6f656
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\2f\2f8ecffd7a0b8af14db3618d5ef6f656
+    projectPath: Library\Artifacts\2f\2f8ecffd7a0b8af14db3618d5ef6f656
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\3a\3a29cd68e5bfc45dfad61ae65de608b9
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\3a\3a29cd68e5bfc45dfad61ae65de608b9
-    projectPath: Library\Artifacts\3a\3a29cd68e5bfc45dfad61ae65de608b9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\3b\3b12a22465e065a33e3bf71d48ab4cab
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\3b\3b12a22465e065a33e3bf71d48ab4cab
-    projectPath: Library\Artifacts\3b\3b12a22465e065a33e3bf71d48ab4cab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\3c\3cb4f5a80ce15a5adc6057b362e9d79d
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\3c\3cb4f5a80ce15a5adc6057b362e9d79d
-    projectPath: Library\Artifacts\3c\3cb4f5a80ce15a5adc6057b362e9d79d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\3c\3cda9e39ff5f91df2a582e72ffd1cdb8
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\3c\3cda9e39ff5f91df2a582e72ffd1cdb8
-    projectPath: Library\Artifacts\3c\3cda9e39ff5f91df2a582e72ffd1cdb8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\3d\3d44237cbea998722f953fb1ad6165fb
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\3d\3d44237cbea998722f953fb1ad6165fb
-    projectPath: Library\Artifacts\3d\3d44237cbea998722f953fb1ad6165fb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\3d\3d56c335e62913443ba6decc8acf5aa6
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\3d\3d56c335e62913443ba6decc8acf5aa6
-    projectPath: Library\Artifacts\3d\3d56c335e62913443ba6decc8acf5aa6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\3d\3d766946a5cb778cfb28b02f46cdf040
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\3d\3d766946a5cb778cfb28b02f46cdf040
-    projectPath: Library\Artifacts\3d\3d766946a5cb778cfb28b02f46cdf040
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\41\414e35f29414f4a4e0054e276467e4ea
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\41\414e35f29414f4a4e0054e276467e4ea
-    projectPath: Library\Artifacts\41\414e35f29414f4a4e0054e276467e4ea
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\42\42979bdc559830894086bb5e1cf11d05
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\42\42979bdc559830894086bb5e1cf11d05
-    projectPath: Library\Artifacts\42\42979bdc559830894086bb5e1cf11d05
+  - path: Daemon Alpha\Library\Artifacts\30\30a4611508a4d6069abd39d6ed0cb17a
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\30\30a4611508a4d6069abd39d6ed0cb17a
+    projectPath: Library\Artifacts\30\30a4611508a4d6069abd39d6ed0cb17a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\44\444a80a654d3c500da81004120efd129
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\44\444a80a654d3c500da81004120efd129
-    projectPath: Library\Artifacts\44\444a80a654d3c500da81004120efd129
+  - path: Daemon Alpha\Library\Artifacts\36\3679b98cc43566b60e61604901a3c1c3
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\36\3679b98cc43566b60e61604901a3c1c3
+    projectPath: Library\Artifacts\36\3679b98cc43566b60e61604901a3c1c3
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\44\44792d9ae6513c73b845ef10a64d3af0
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\44\44792d9ae6513c73b845ef10a64d3af0
-    projectPath: Library\Artifacts\44\44792d9ae6513c73b845ef10a64d3af0
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\45\453928089be499ba157b6dc7ddf2b0db
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\45\453928089be499ba157b6dc7ddf2b0db
+    projectPath: Library\Artifacts\45\453928089be499ba157b6dc7ddf2b0db
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\45\453abab277435d3936fb65966eeaf579
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\45\453abab277435d3936fb65966eeaf579
-    projectPath: Library\Artifacts\45\453abab277435d3936fb65966eeaf579
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\47\47dd6332e557d881781f045ab3e3ab31
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\47\47dd6332e557d881781f045ab3e3ab31
+    projectPath: Library\Artifacts\47\47dd6332e557d881781f045ab3e3ab31
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\45\4548716f22aadd7e8336d19720946e5d
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\45\4548716f22aadd7e8336d19720946e5d
-    projectPath: Library\Artifacts\45\4548716f22aadd7e8336d19720946e5d
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\4b\4b01dece0c00e7ab7b841fd399d6a374
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\4b\4b01dece0c00e7ab7b841fd399d6a374
+    projectPath: Library\Artifacts\4b\4b01dece0c00e7ab7b841fd399d6a374
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\4c\4c1214a4c34395b718c39c6cdd0be5c3
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\4c\4c1214a4c34395b718c39c6cdd0be5c3
-    projectPath: Library\Artifacts\4c\4c1214a4c34395b718c39c6cdd0be5c3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\4c\4c318251cab01f996022d3364907e383
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\4c\4c318251cab01f996022d3364907e383
-    projectPath: Library\Artifacts\4c\4c318251cab01f996022d3364907e383
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Library\Artifacts\4e\4e92dad226732b8a19fa4ee241334fca
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\4e\4e92dad226732b8a19fa4ee241334fca
     projectPath: Library\Artifacts\4e\4e92dad226732b8a19fa4ee241334fca
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\4e\4eb5ab4c73936ae1c85e84fe652902b3
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\4e\4eb5ab4c73936ae1c85e84fe652902b3
-    projectPath: Library\Artifacts\4e\4eb5ab4c73936ae1c85e84fe652902b3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -740,17 +302,29 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\50\5001cbd94d91b5ae3f58ded608d303e0
     projectPath: Library\Artifacts\50\5001cbd94d91b5ae3f58ded608d303e0
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\51\51594e2c944efb52d009ba81717e186b
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\51\51594e2c944efb52d009ba81717e186b
-    projectPath: Library\Artifacts\51\51594e2c944efb52d009ba81717e186b
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\50\50dc7a611e41365dbdad7e6a93d143ea
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\50\50dc7a611e41365dbdad7e6a93d143ea
+    projectPath: Library\Artifacts\50\50dc7a611e41365dbdad7e6a93d143ea
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\50\50de2870777c3f404e42ea701f42a9f1
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\50\50de2870777c3f404e42ea701f42a9f1
+    projectPath: Library\Artifacts\50\50de2870777c3f404e42ea701f42a9f1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Library\Artifacts\52\520a0353b281611578deadf6f34466c6
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\52\520a0353b281611578deadf6f34466c6
     projectPath: Library\Artifacts\52\520a0353b281611578deadf6f34466c6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\52\523780cc145d6d51d977a217d9383627
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\52\523780cc145d6d51d977a217d9383627
+    projectPath: Library\Artifacts\52\523780cc145d6d51d977a217d9383627
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -758,53 +332,23 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\54\5477ca7081ec1860187e7c606953a5a5
     projectPath: Library\Artifacts\54\5477ca7081ec1860187e7c606953a5a5
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\56\561a3ef4b3ec6edbcae630c94d672040
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\56\561a3ef4b3ec6edbcae630c94d672040
+    projectPath: Library\Artifacts\56\561a3ef4b3ec6edbcae630c94d672040
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\55\55fc46daa3830bc32d6392a2ac425154
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\55\55fc46daa3830bc32d6392a2ac425154
-    projectPath: Library\Artifacts\55\55fc46daa3830bc32d6392a2ac425154
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\57\573f71ec249f9ec7516e1cf3d2557d0d
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\57\573f71ec249f9ec7516e1cf3d2557d0d
-    projectPath: Library\Artifacts\57\573f71ec249f9ec7516e1cf3d2557d0d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\59\593ef04b984d1b59952a7cee811309e5
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\59\593ef04b984d1b59952a7cee811309e5
-    projectPath: Library\Artifacts\59\593ef04b984d1b59952a7cee811309e5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\5a\5a936dc6fedc97c5bfdb8fffd071bfb9
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\5a\5a936dc6fedc97c5bfdb8fffd071bfb9
-    projectPath: Library\Artifacts\5a\5a936dc6fedc97c5bfdb8fffd071bfb9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\5b\5b1ba1bde1538d49ebae9c7147c454b9
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\5b\5b1ba1bde1538d49ebae9c7147c454b9
-    projectPath: Library\Artifacts\5b\5b1ba1bde1538d49ebae9c7147c454b9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\5b\5b420446e405f853b47e2841a0880b8c
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\5b\5b420446e405f853b47e2841a0880b8c
-    projectPath: Library\Artifacts\5b\5b420446e405f853b47e2841a0880b8c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\5c\5c89f6dfda5a2783d27b2ed4cf2fc013
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\5c\5c89f6dfda5a2783d27b2ed4cf2fc013
-    projectPath: Library\Artifacts\5c\5c89f6dfda5a2783d27b2ed4cf2fc013
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\5d\5d3b89d0fa9386e4eceb66372ba519f0
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\5d\5d3b89d0fa9386e4eceb66372ba519f0
     projectPath: Library\Artifacts\5d\5d3b89d0fa9386e4eceb66372ba519f0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\5d\5d974329bcc90e9e651b7d524b7cb91f
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\5d\5d974329bcc90e9e651b7d524b7cb91f
+    projectPath: Library\Artifacts\5d\5d974329bcc90e9e651b7d524b7cb91f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -812,101 +356,53 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\5e\5ecd9fcddac21c15bca9717dd9a9576f
     projectPath: Library\Artifacts\5e\5ecd9fcddac21c15bca9717dd9a9576f
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\60\60dbfebd8639ce19de29f5fa4addbcbb
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\60\60dbfebd8639ce19de29f5fa4addbcbb
+    projectPath: Library\Artifacts\60\60dbfebd8639ce19de29f5fa4addbcbb
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\5f\5fdceedb2d22a44381d1a956a7e4f5a5
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\5f\5fdceedb2d22a44381d1a956a7e4f5a5
-    projectPath: Library\Artifacts\5f\5fdceedb2d22a44381d1a956a7e4f5a5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\60\60068af6db927ccae5346441902ea467
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\60\60068af6db927ccae5346441902ea467
-    projectPath: Library\Artifacts\60\60068af6db927ccae5346441902ea467
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\60\60d790ca4afd988c9b06b40391e6bcd2
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\60\60d790ca4afd988c9b06b40391e6bcd2
-    projectPath: Library\Artifacts\60\60d790ca4afd988c9b06b40391e6bcd2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\62\627950f812ef9267fa5938629f2a6bdb
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\62\627950f812ef9267fa5938629f2a6bdb
     projectPath: Library\Artifacts\62\627950f812ef9267fa5938629f2a6bdb
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\62\62db86890417b1eae6be8948f8474853
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\62\62db86890417b1eae6be8948f8474853
+    projectPath: Library\Artifacts\62\62db86890417b1eae6be8948f8474853
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\63\636bb4a613b3d59c7f54be5d19aa5f09
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\63\636bb4a613b3d59c7f54be5d19aa5f09
+    projectPath: Library\Artifacts\63\636bb4a613b3d59c7f54be5d19aa5f09
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\62\62bde15bb4f03a0759c5c47bf2bb5709
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\62\62bde15bb4f03a0759c5c47bf2bb5709
-    projectPath: Library\Artifacts\62\62bde15bb4f03a0759c5c47bf2bb5709
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\62\62fb04a46510dd3c61c33713351fb98c
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\62\62fb04a46510dd3c61c33713351fb98c
-    projectPath: Library\Artifacts\62\62fb04a46510dd3c61c33713351fb98c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\65\65b7d7ca038bb723c13de2661f7b9baf
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\65\65b7d7ca038bb723c13de2661f7b9baf
-    projectPath: Library\Artifacts\65\65b7d7ca038bb723c13de2661f7b9baf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\66\660f9f4e1180ea970be0b4e580e57230
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\66\660f9f4e1180ea970be0b4e580e57230
     projectPath: Library\Artifacts\66\660f9f4e1180ea970be0b4e580e57230
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\69\6948c01e0301a4151907dbac57a631b1
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\69\6948c01e0301a4151907dbac57a631b1
+    projectPath: Library\Artifacts\69\6948c01e0301a4151907dbac57a631b1
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\66\66498e8fce4ef650cb1bf1fceea666de
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\66\66498e8fce4ef650cb1bf1fceea666de
-    projectPath: Library\Artifacts\66\66498e8fce4ef650cb1bf1fceea666de
+  - path: Daemon Alpha\Library\Artifacts\6a\6a67b42825c2a109554b8f2cd80bd52c
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\6a\6a67b42825c2a109554b8f2cd80bd52c
+    projectPath: Library\Artifacts\6a\6a67b42825c2a109554b8f2cd80bd52c
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\67\672f5f022fe216632290cc34afc38786
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\67\672f5f022fe216632290cc34afc38786
-    projectPath: Library\Artifacts\67\672f5f022fe216632290cc34afc38786
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\69\6947e4c7c9e671bd164db9496cb52fcf
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\69\6947e4c7c9e671bd164db9496cb52fcf
-    projectPath: Library\Artifacts\69\6947e4c7c9e671bd164db9496cb52fcf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\69\6984785efedb2ffdfa011d43788fefc3
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\69\6984785efedb2ffdfa011d43788fefc3
-    projectPath: Library\Artifacts\69\6984785efedb2ffdfa011d43788fefc3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Library\Artifacts\6b\6bd2634eb6630e154dd771ef9260d4e8
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\6b\6bd2634eb6630e154dd771ef9260d4e8
     projectPath: Library\Artifacts\6b\6bd2634eb6630e154dd771ef9260d4e8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\6c\6c3f3b98a214c79c61ab1b885a80146f
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\6c\6c3f3b98a214c79c61ab1b885a80146f
-    projectPath: Library\Artifacts\6c\6c3f3b98a214c79c61ab1b885a80146f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\6c\6c6e72d637fd53e404605d55e96d11be
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\6c\6c6e72d637fd53e404605d55e96d11be
-    projectPath: Library\Artifacts\6c\6c6e72d637fd53e404605d55e96d11be
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\6f\6f6988a74700c62094969b50fd98e101
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\6f\6f6988a74700c62094969b50fd98e101
-    projectPath: Library\Artifacts\6f\6f6988a74700c62094969b50fd98e101
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -914,77 +410,47 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\71\71c4d4a9d450f346a8217a6dcbf1ca5f
     projectPath: Library\Artifacts\71\71c4d4a9d450f346a8217a6dcbf1ca5f
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\75\75ef175b3605762e114d03375c746c6f
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\75\75ef175b3605762e114d03375c746c6f
+    projectPath: Library\Artifacts\75\75ef175b3605762e114d03375c746c6f
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\72\7296ccb3a621cf1c6da199ab6868ff12
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\72\7296ccb3a621cf1c6da199ab6868ff12
-    projectPath: Library\Artifacts\72\7296ccb3a621cf1c6da199ab6868ff12
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\73\7366aed2368b282232052263f11dc967
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\73\7366aed2368b282232052263f11dc967
-    projectPath: Library\Artifacts\73\7366aed2368b282232052263f11dc967
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\75\75ed44dfde6f1a1e74b44d3ce3d39890
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\75\75ed44dfde6f1a1e74b44d3ce3d39890
-    projectPath: Library\Artifacts\75\75ed44dfde6f1a1e74b44d3ce3d39890
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\76\76f1becf53de91334cd81a7fb0c22456
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\76\76f1becf53de91334cd81a7fb0c22456
-    projectPath: Library\Artifacts\76\76f1becf53de91334cd81a7fb0c22456
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\77\7708c11dba59050cc8039524a172be4a
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\77\7708c11dba59050cc8039524a172be4a
     projectPath: Library\Artifacts\77\7708c11dba59050cc8039524a172be4a
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\7a\7ab3780b2d84f752810ce73365d07922
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\7a\7ab3780b2d84f752810ce73365d07922
+    projectPath: Library\Artifacts\7a\7ab3780b2d84f752810ce73365d07922
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\77\7767b4f07bfb6514755f00b29adfc17d
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\77\7767b4f07bfb6514755f00b29adfc17d
-    projectPath: Library\Artifacts\77\7767b4f07bfb6514755f00b29adfc17d
+  - path: Daemon Alpha\Library\Artifacts\7a\7ad846d20874e05a7e92339ca4a108e5
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\7a\7ad846d20874e05a7e92339ca4a108e5
+    projectPath: Library\Artifacts\7a\7ad846d20874e05a7e92339ca4a108e5
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\77\77e689080dae9dee05e2763568f7e231
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\77\77e689080dae9dee05e2763568f7e231
-    projectPath: Library\Artifacts\77\77e689080dae9dee05e2763568f7e231
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\7b\7b0f24fa2a43c3efacde386a19e6d6f0
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\7b\7b0f24fa2a43c3efacde386a19e6d6f0
+    projectPath: Library\Artifacts\7b\7b0f24fa2a43c3efacde386a19e6d6f0
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\77\77e9dc1f24753d65f7e7ffd0cfc7b090
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\77\77e9dc1f24753d65f7e7ffd0cfc7b090
-    projectPath: Library\Artifacts\77\77e9dc1f24753d65f7e7ffd0cfc7b090
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\78\78511ad30df27b550fb0d078210aa76a
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\78\78511ad30df27b550fb0d078210aa76a
-    projectPath: Library\Artifacts\78\78511ad30df27b550fb0d078210aa76a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Library\Artifacts\7b\7b4fcefc1bd9736e564e006683abd0e3
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\7b\7b4fcefc1bd9736e564e006683abd0e3
     projectPath: Library\Artifacts\7b\7b4fcefc1bd9736e564e006683abd0e3
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\7c\7c7935466bf972fc463d0b5d78bf9dca
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\7c\7c7935466bf972fc463d0b5d78bf9dca
     projectPath: Library\Artifacts\7c\7c7935466bf972fc463d0b5d78bf9dca
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\7c\7cfaab7c22c57ebf6cb6791453f81885
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\7c\7cfaab7c22c57ebf6cb6791453f81885
-    projectPath: Library\Artifacts\7c\7cfaab7c22c57ebf6cb6791453f81885
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -992,47 +458,41 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\7d\7d2bf2472728c0ebfb89888ab13ba006
     projectPath: Library\Artifacts\7d\7d2bf2472728c0ebfb89888ab13ba006
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\7f\7fbca7364c73d4f5938dd19c65b07874
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\7f\7fbca7364c73d4f5938dd19c65b07874
-    projectPath: Library\Artifacts\7f\7fbca7364c73d4f5938dd19c65b07874
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\80\80eca1900125e07c792eec18d4e5219b
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\80\80eca1900125e07c792eec18d4e5219b
     projectPath: Library\Artifacts\80\80eca1900125e07c792eec18d4e5219b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\81\81c723d5859fe33c5a7344237411c734
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\81\81c723d5859fe33c5a7344237411c734
     projectPath: Library\Artifacts\81\81c723d5859fe33c5a7344237411c734
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\82\82d98c1faf03150e7c48df4a863ffd5e
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\82\82d98c1faf03150e7c48df4a863ffd5e
-    projectPath: Library\Artifacts\82\82d98c1faf03150e7c48df4a863ffd5e
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\81\81edf8667935a2b1ec63ea63013c50cb
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\81\81edf8667935a2b1ec63ea63013c50cb
+    projectPath: Library\Artifacts\81\81edf8667935a2b1ec63ea63013c50cb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\82\82ecaad285ec6e9b0959272935cdf50b
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\82\82ecaad285ec6e9b0959272935cdf50b
+    projectPath: Library\Artifacts\82\82ecaad285ec6e9b0959272935cdf50b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Library\Artifacts\83\83de1373093fd35b1eb02a97cf51786d
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\83\83de1373093fd35b1eb02a97cf51786d
     projectPath: Library\Artifacts\83\83de1373093fd35b1eb02a97cf51786d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\84\8494f3a73e03a757e5b5b5950b3b5e2c
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\84\8494f3a73e03a757e5b5b5950b3b5e2c
     projectPath: Library\Artifacts\84\8494f3a73e03a757e5b5b5950b3b5e2c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\85\85ae39999d425514024c1b9c230098d6
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\85\85ae39999d425514024c1b9c230098d6
-    projectPath: Library\Artifacts\85\85ae39999d425514024c1b9c230098d6
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1040,29 +500,11 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\86\8694411adcc7196f7816de58b4d9accf
     projectPath: Library\Artifacts\86\8694411adcc7196f7816de58b4d9accf
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\87\87af9d15d88f107864f1979b39518dfc
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\87\87af9d15d88f107864f1979b39518dfc
     projectPath: Library\Artifacts\87\87af9d15d88f107864f1979b39518dfc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\88\8882c40b4fdf65ee2e8722c35d02a82a
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\88\8882c40b4fdf65ee2e8722c35d02a82a
-    projectPath: Library\Artifacts\88\8882c40b4fdf65ee2e8722c35d02a82a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\8a\8a7a3b10d7badfe63280fd7d0e2609cc
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\8a\8a7a3b10d7badfe63280fd7d0e2609cc
-    projectPath: Library\Artifacts\8a\8a7a3b10d7badfe63280fd7d0e2609cc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\8b\8b23190d0a63ac77e0f9d9570dbd95ac
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\8b\8b23190d0a63ac77e0f9d9570dbd95ac
-    projectPath: Library\Artifacts\8b\8b23190d0a63ac77e0f9d9570dbd95ac
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1070,107 +512,47 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\8b\8ba87047bb026cbe0d5b2248e9ae38b4
     projectPath: Library\Artifacts\8b\8ba87047bb026cbe0d5b2248e9ae38b4
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\8e\8e49d3e176b362219bd2bfb7a536251b
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\8e\8e49d3e176b362219bd2bfb7a536251b
+    projectPath: Library\Artifacts\8e\8e49d3e176b362219bd2bfb7a536251b
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\8c\8cd361e8f01cff93e156dc533fd8763d
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\8c\8cd361e8f01cff93e156dc533fd8763d
-    projectPath: Library\Artifacts\8c\8cd361e8f01cff93e156dc533fd8763d
+  - path: Daemon Alpha\Library\Artifacts\8e\8e4fd2ecc46bc96c860a7985ea39f022
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\8e\8e4fd2ecc46bc96c860a7985ea39f022
+    projectPath: Library\Artifacts\8e\8e4fd2ecc46bc96c860a7985ea39f022
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\8d\8dbd62257a08594512337bdf7f094073
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\8d\8dbd62257a08594512337bdf7f094073
-    projectPath: Library\Artifacts\8d\8dbd62257a08594512337bdf7f094073
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\92\925c988e4ce4f552a37bb8a8f0f21513
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\92\925c988e4ce4f552a37bb8a8f0f21513
+    projectPath: Library\Artifacts\92\925c988e4ce4f552a37bb8a8f0f21513
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\8e\8eec099c6786be5c30bee97b1cdb2c97
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\8e\8eec099c6786be5c30bee97b1cdb2c97
-    projectPath: Library\Artifacts\8e\8eec099c6786be5c30bee97b1cdb2c97
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\90\90ce3fac30fea7dd56f901895edfa118
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\90\90ce3fac30fea7dd56f901895edfa118
-    projectPath: Library\Artifacts\90\90ce3fac30fea7dd56f901895edfa118
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\91\918782bbb685e68f9cdf8e4d2f2b133e
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\91\918782bbb685e68f9cdf8e4d2f2b133e
-    projectPath: Library\Artifacts\91\918782bbb685e68f9cdf8e4d2f2b133e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\92\9247b8c40334f65979c6d9bcfcc30e8e
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\92\9247b8c40334f65979c6d9bcfcc30e8e
-    projectPath: Library\Artifacts\92\9247b8c40334f65979c6d9bcfcc30e8e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\94\940da2160bbb3d9310508a0a9d22d593
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\94\940da2160bbb3d9310508a0a9d22d593
-    projectPath: Library\Artifacts\94\940da2160bbb3d9310508a0a9d22d593
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\96\9676a42c0291aaf856dbae39ec137b6d
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\96\9676a42c0291aaf856dbae39ec137b6d
-    projectPath: Library\Artifacts\96\9676a42c0291aaf856dbae39ec137b6d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Library\Artifacts\98\980c6beeeb7d0e5b44c23ca65e78d8de
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\98\980c6beeeb7d0e5b44c23ca65e78d8de
     projectPath: Library\Artifacts\98\980c6beeeb7d0e5b44c23ca65e78d8de
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\98\98eb5bdc8c1b2ead3102e5ce41c0b6e5
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\98\98eb5bdc8c1b2ead3102e5ce41c0b6e5
     projectPath: Library\Artifacts\98\98eb5bdc8c1b2ead3102e5ce41c0b6e5
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\9e\9edb76e8d65839bbcc9b71005b09bc81
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\9e\9edb76e8d65839bbcc9b71005b09bc81
+    projectPath: Library\Artifacts\9e\9edb76e8d65839bbcc9b71005b09bc81
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\9b\9b2d7e4aba566d4fe46692318cdb55da
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\9b\9b2d7e4aba566d4fe46692318cdb55da
-    projectPath: Library\Artifacts\9b\9b2d7e4aba566d4fe46692318cdb55da
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\9d\9d732b29fc4129c8c9a0126ad4ca90a6
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\9d\9d732b29fc4129c8c9a0126ad4ca90a6
-    projectPath: Library\Artifacts\9d\9d732b29fc4129c8c9a0126ad4ca90a6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\9e\9e93a65a55821b86d0ae9a8cbf762de6
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\9e\9e93a65a55821b86d0ae9a8cbf762de6
-    projectPath: Library\Artifacts\9e\9e93a65a55821b86d0ae9a8cbf762de6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\9f\9f33b8d48878598d16f24f7a2c2a1065
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\9f\9f33b8d48878598d16f24f7a2c2a1065
     projectPath: Library\Artifacts\9f\9f33b8d48878598d16f24f7a2c2a1065
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\a0\a0802f052048cf522bcf0b38285390e3
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\a0\a0802f052048cf522bcf0b38285390e3
-    projectPath: Library\Artifacts\a0\a0802f052048cf522bcf0b38285390e3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\a1\a19e7b5012651cf7bac22d841ce39b6e
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\a1\a19e7b5012651cf7bac22d841ce39b6e
-    projectPath: Library\Artifacts\a1\a19e7b5012651cf7bac22d841ce39b6e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\a2\a208f2d91800798f6755a8e181adcb0c
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\a2\a208f2d91800798f6755a8e181adcb0c
-    projectPath: Library\Artifacts\a2\a208f2d91800798f6755a8e181adcb0c
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1178,149 +560,95 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\a3\a3b6de94521cd9b1fe3fcd11149be4a9
     projectPath: Library\Artifacts\a3\a3b6de94521cd9b1fe3fcd11149be4a9
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\a8\a88d9742c5eb5703d98c83f11fc26d2c
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\a8\a88d9742c5eb5703d98c83f11fc26d2c
+    projectPath: Library\Artifacts\a8\a88d9742c5eb5703d98c83f11fc26d2c
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\a3\a3c49a9a8e6e60b61f7a2b1bb720d963
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\a3\a3c49a9a8e6e60b61f7a2b1bb720d963
-    projectPath: Library\Artifacts\a3\a3c49a9a8e6e60b61f7a2b1bb720d963
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\a5\a5fcc758baf6b91b76e234400c91dd97
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\a5\a5fcc758baf6b91b76e234400c91dd97
-    projectPath: Library\Artifacts\a5\a5fcc758baf6b91b76e234400c91dd97
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\a6\a68ccb87623c4d86da57bbe67e61f6d9
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\a6\a68ccb87623c4d86da57bbe67e61f6d9
-    projectPath: Library\Artifacts\a6\a68ccb87623c4d86da57bbe67e61f6d9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\a7\a7a17cf92ae15222e518fae78348aff7
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\a7\a7a17cf92ae15222e518fae78348aff7
-    projectPath: Library\Artifacts\a7\a7a17cf92ae15222e518fae78348aff7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\a9\a906bd732673bc167726cc4a4c0ffec4
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\a9\a906bd732673bc167726cc4a4c0ffec4
-    projectPath: Library\Artifacts\a9\a906bd732673bc167726cc4a4c0ffec4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\ab\abf1a73c9d19bae69115de044bd07b34
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ab\abf1a73c9d19bae69115de044bd07b34
     projectPath: Library\Artifacts\ab\abf1a73c9d19bae69115de044bd07b34
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\ac\ac644dcb59f3923bb89bd83772e72452
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ac\ac644dcb59f3923bb89bd83772e72452
     projectPath: Library\Artifacts\ac\ac644dcb59f3923bb89bd83772e72452
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\ac\acf2bc65e63ade360774c22576df4047
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ac\acf2bc65e63ade360774c22576df4047
+    projectPath: Library\Artifacts\ac\acf2bc65e63ade360774c22576df4047
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\ad\ad5bd81fb490f15558ca69e9493fe0a5
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ad\ad5bd81fb490f15558ca69e9493fe0a5
-    projectPath: Library\Artifacts\ad\ad5bd81fb490f15558ca69e9493fe0a5
+  - path: Daemon Alpha\Library\Artifacts\ad\ad89aafe08a926730a3c1b2172b03ff9
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ad\ad89aafe08a926730a3c1b2172b03ff9
+    projectPath: Library\Artifacts\ad\ad89aafe08a926730a3c1b2172b03ff9
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\af\afa06fa38d6f2e4d046b156e8cb6aacd
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\af\afa06fa38d6f2e4d046b156e8cb6aacd
-    projectPath: Library\Artifacts\af\afa06fa38d6f2e4d046b156e8cb6aacd
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\b2\b2853d561a0b933ddec4484cca70c84e
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\b2\b2853d561a0b933ddec4484cca70c84e
+    projectPath: Library\Artifacts\b2\b2853d561a0b933ddec4484cca70c84e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\b4\b47de28adc8ace7756f3662f450508d6
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\b4\b47de28adc8ace7756f3662f450508d6
-    projectPath: Library\Artifacts\b4\b47de28adc8ace7756f3662f450508d6
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\b4\b403e00c99d128a87e2cada45eb6dacb
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\b4\b403e00c99d128a87e2cada45eb6dacb
+    projectPath: Library\Artifacts\b4\b403e00c99d128a87e2cada45eb6dacb
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Library\Artifacts\b4\b4fdd14d2e730acbfb7834c6a239c6f7
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\b4\b4fdd14d2e730acbfb7834c6a239c6f7
     projectPath: Library\Artifacts\b4\b4fdd14d2e730acbfb7834c6a239c6f7
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\b7\b7c941bb1938bbb0ac898a435438c163
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\b7\b7c941bb1938bbb0ac898a435438c163
     projectPath: Library\Artifacts\b7\b7c941bb1938bbb0ac898a435438c163
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\ba\ba8ec6a53226ea9aaa39d026d24083ff
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ba\ba8ec6a53226ea9aaa39d026d24083ff
-    projectPath: Library\Artifacts\ba\ba8ec6a53226ea9aaa39d026d24083ff
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\bc\bcbbe248300015b15484d1d2f63defd6
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\bc\bcbbe248300015b15484d1d2f63defd6
-    projectPath: Library\Artifacts\bc\bcbbe248300015b15484d1d2f63defd6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\bd\bd30b9b927983fadd07d4a4209c768b5
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\bd\bd30b9b927983fadd07d4a4209c768b5
-    projectPath: Library\Artifacts\bd\bd30b9b927983fadd07d4a4209c768b5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\bd\bd373e3f5b4e6787053922179a2a8e88
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\bd\bd373e3f5b4e6787053922179a2a8e88
-    projectPath: Library\Artifacts\bd\bd373e3f5b4e6787053922179a2a8e88
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\be\be003353965d7c74fe68dd72e2f41712
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\be\be003353965d7c74fe68dd72e2f41712
-    projectPath: Library\Artifacts\be\be003353965d7c74fe68dd72e2f41712
+  - path: Daemon Alpha\Library\Artifacts\ba\bab3924988f8dd6da3285ff83fc571f2
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ba\bab3924988f8dd6da3285ff83fc571f2
+    projectPath: Library\Artifacts\ba\bab3924988f8dd6da3285ff83fc571f2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\bf\bf47d38e12f053fcd4094e439deb769c
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\bf\bf47d38e12f053fcd4094e439deb769c
-    projectPath: Library\Artifacts\bf\bf47d38e12f053fcd4094e439deb769c
+  - path: Daemon Alpha\Library\Artifacts\bb\bbce4ab4f3ec987b3143d4f45553bc3d
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\bb\bbce4ab4f3ec987b3143d4f45553bc3d
+    projectPath: Library\Artifacts\bb\bbce4ab4f3ec987b3143d4f45553bc3d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\bc\bc8b4d397e19e0aeb3ac14735872512e
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\bc\bc8b4d397e19e0aeb3ac14735872512e
+    projectPath: Library\Artifacts\bc\bc8b4d397e19e0aeb3ac14735872512e
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\c0\c0cefb297702e1bad80278dc29d99985
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\c0\c0cefb297702e1bad80278dc29d99985
-    projectPath: Library\Artifacts\c0\c0cefb297702e1bad80278dc29d99985
+  - path: Daemon Alpha\Library\Artifacts\c1\c199272302d06aa6741de61920f0dfc4
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\c1\c199272302d06aa6741de61920f0dfc4
+    projectPath: Library\Artifacts\c1\c199272302d06aa6741de61920f0dfc4
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\c2\c28cf411287df7336973be8051c8f3fb
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\c2\c28cf411287df7336973be8051c8f3fb
+    projectPath: Library\Artifacts\c2\c28cf411287df7336973be8051c8f3fb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Library\Artifacts\c3\c3708e03bb952b3da5f21c8cebb928aa
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\c3\c3708e03bb952b3da5f21c8cebb928aa
     projectPath: Library\Artifacts\c3\c3708e03bb952b3da5f21c8cebb928aa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\c4\c47db432e2ab158f491ffd0835b1c434
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\c4\c47db432e2ab158f491ffd0835b1c434
-    projectPath: Library\Artifacts\c4\c47db432e2ab158f491ffd0835b1c434
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\c4\c48cb3fadf77f18432e6f25f11aa6498
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\c4\c48cb3fadf77f18432e6f25f11aa6498
-    projectPath: Library\Artifacts\c4\c48cb3fadf77f18432e6f25f11aa6498
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\c5\c59e3a566d630f88a107574728c4ac59
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\c5\c59e3a566d630f88a107574728c4ac59
-    projectPath: Library\Artifacts\c5\c59e3a566d630f88a107574728c4ac59
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\c5\c5c5649fbd4ee75fb62a5abfe7197f1c
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\c5\c5c5649fbd4ee75fb62a5abfe7197f1c
-    projectPath: Library\Artifacts\c5\c5c5649fbd4ee75fb62a5abfe7197f1c
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1328,47 +656,11 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\c5\c5d8d91da5beabeaa8abe87816a95f3e
     projectPath: Library\Artifacts\c5\c5d8d91da5beabeaa8abe87816a95f3e
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\c6\c6d04553b38d281831b799a197d15c9b
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\c6\c6d04553b38d281831b799a197d15c9b
-    projectPath: Library\Artifacts\c6\c6d04553b38d281831b799a197d15c9b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\c7\c72eeee1659831ba5e4be5526f7a1c7a
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\c7\c72eeee1659831ba5e4be5526f7a1c7a
-    projectPath: Library\Artifacts\c7\c72eeee1659831ba5e4be5526f7a1c7a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\c9\c9f86dd6e41803da19f794d60b9853a3
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\c9\c9f86dd6e41803da19f794d60b9853a3
-    projectPath: Library\Artifacts\c9\c9f86dd6e41803da19f794d60b9853a3
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\ca\ca2938d077435b0356518481efe30ed2
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ca\ca2938d077435b0356518481efe30ed2
     projectPath: Library\Artifacts\ca\ca2938d077435b0356518481efe30ed2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\cc\cc629ef1ba34114eea57f2ae07f4ad62
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\cc\cc629ef1ba34114eea57f2ae07f4ad62
-    projectPath: Library\Artifacts\cc\cc629ef1ba34114eea57f2ae07f4ad62
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\cc\cc830da87c91659f27f2812743f181e3
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\cc\cc830da87c91659f27f2812743f181e3
-    projectPath: Library\Artifacts\cc\cc830da87c91659f27f2812743f181e3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\cc\ccd5ba0f90a5bf725ac77c27b3af4643
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\cc\ccd5ba0f90a5bf725ac77c27b3af4643
-    projectPath: Library\Artifacts\cc\ccd5ba0f90a5bf725ac77c27b3af4643
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1376,77 +668,29 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\cd\cd42a2efa211b2200d922dd6780f5bb9
     projectPath: Library\Artifacts\cd\cd42a2efa211b2200d922dd6780f5bb9
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\ce\ce37741bb9c03c8949068d32a166aeb9
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ce\ce37741bb9c03c8949068d32a166aeb9
+    projectPath: Library\Artifacts\ce\ce37741bb9c03c8949068d32a166aeb9
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\ce\ced4dee4227959be99f7f92759fa2a00
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ce\ced4dee4227959be99f7f92759fa2a00
-    projectPath: Library\Artifacts\ce\ced4dee4227959be99f7f92759fa2a00
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\ce\cef636401f54b25136e5f793f6398751
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ce\cef636401f54b25136e5f793f6398751
-    projectPath: Library\Artifacts\ce\cef636401f54b25136e5f793f6398751
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\cf\cf14e110cea3c627df22b34d3ed3cf7c
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\cf\cf14e110cea3c627df22b34d3ed3cf7c
     projectPath: Library\Artifacts\cf\cf14e110cea3c627df22b34d3ed3cf7c
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\d4\d41fe3bead616618bedc0853ab57ed3e
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\d4\d41fe3bead616618bedc0853ab57ed3e
+    projectPath: Library\Artifacts\d4\d41fe3bead616618bedc0853ab57ed3e
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\cf\cf176958ed49a506f9dd8fd67a522dda
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\cf\cf176958ed49a506f9dd8fd67a522dda
-    projectPath: Library\Artifacts\cf\cf176958ed49a506f9dd8fd67a522dda
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\d2\d224d66e66da7b4b7f7af0b74f572b3c
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\d2\d224d66e66da7b4b7f7af0b74f572b3c
-    projectPath: Library\Artifacts\d2\d224d66e66da7b4b7f7af0b74f572b3c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\d3\d39ce5a0196ddd8a8f650cb356e70ef1
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\d3\d39ce5a0196ddd8a8f650cb356e70ef1
-    projectPath: Library\Artifacts\d3\d39ce5a0196ddd8a8f650cb356e70ef1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\d4\d4081b5e0ecadf6a74f8ae554171c209
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\d4\d4081b5e0ecadf6a74f8ae554171c209
-    projectPath: Library\Artifacts\d4\d4081b5e0ecadf6a74f8ae554171c209
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\d4\d445d5bbacf42fa3d14e86fdc89fb61b
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\d4\d445d5bbacf42fa3d14e86fdc89fb61b
     projectPath: Library\Artifacts\d4\d445d5bbacf42fa3d14e86fdc89fb61b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\d5\d549702a5410417e15b1be89ad262592
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\d5\d549702a5410417e15b1be89ad262592
-    projectPath: Library\Artifacts\d5\d549702a5410417e15b1be89ad262592
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\d5\d5f834379db0f8cfca06254b4f3cca3b
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\d5\d5f834379db0f8cfca06254b4f3cca3b
-    projectPath: Library\Artifacts\d5\d5f834379db0f8cfca06254b4f3cca3b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\d6\d6cb5a8c37764bd6a84a6117ea6b1a73
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\d6\d6cb5a8c37764bd6a84a6117ea6b1a73
-    projectPath: Library\Artifacts\d6\d6cb5a8c37764bd6a84a6117ea6b1a73
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\d8\d85ef6cef1a69cd6f0613f8a5ca48967
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\d8\d85ef6cef1a69cd6f0613f8a5ca48967
-    projectPath: Library\Artifacts\d8\d85ef6cef1a69cd6f0613f8a5ca48967
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1454,23 +698,11 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\d9\d942b32e0843161f6dc8ce8d21c54526
     projectPath: Library\Artifacts\d9\d942b32e0843161f6dc8ce8d21c54526
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\d9\d9ad41f6a17234a882a179480ad580b0
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\d9\d9ad41f6a17234a882a179480ad580b0
-    projectPath: Library\Artifacts\d9\d9ad41f6a17234a882a179480ad580b0
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\de\de2a644f2d02c8b4657defc09ee18dc1
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\de\de2a644f2d02c8b4657defc09ee18dc1
     projectPath: Library\Artifacts\de\de2a644f2d02c8b4657defc09ee18dc1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\de\de88281603129709f190922dbb2ee288
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\de\de88281603129709f190922dbb2ee288
-    projectPath: Library\Artifacts\de\de88281603129709f190922dbb2ee288
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1478,89 +710,53 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\de\deba92fcd0553d4171d6e211f8fb6a80
     projectPath: Library\Artifacts\de\deba92fcd0553d4171d6e211f8fb6a80
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\df\df1d9fdb8d7405f2b4391900ba228adf
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\df\df1d9fdb8d7405f2b4391900ba228adf
-    projectPath: Library\Artifacts\df\df1d9fdb8d7405f2b4391900ba228adf
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\df\df46ff80af3767d18df12f6c18cf4b8a
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\df\df46ff80af3767d18df12f6c18cf4b8a
-    projectPath: Library\Artifacts\df\df46ff80af3767d18df12f6c18cf4b8a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\e0\e0b0fba4ce7f1e0ab03ff5a5a65880b9
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\e0\e0b0fba4ce7f1e0ab03ff5a5a65880b9
-    projectPath: Library\Artifacts\e0\e0b0fba4ce7f1e0ab03ff5a5a65880b9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\e1\e1104a4242250d0d60810cce8ddfbea6
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\e1\e1104a4242250d0d60810cce8ddfbea6
-    projectPath: Library\Artifacts\e1\e1104a4242250d0d60810cce8ddfbea6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\e3\e388e566e6bbe699161e2cb793812c48
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\e3\e388e566e6bbe699161e2cb793812c48
-    projectPath: Library\Artifacts\e3\e388e566e6bbe699161e2cb793812c48
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\e4\e45cb691e5c56fc81ebf964c45577274
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\e4\e45cb691e5c56fc81ebf964c45577274
-    projectPath: Library\Artifacts\e4\e45cb691e5c56fc81ebf964c45577274
+  - path: Daemon Alpha\Library\Artifacts\df\df7cd86f7d0e21da1180a673f9372e60
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\df\df7cd86f7d0e21da1180a673f9372e60
+    projectPath: Library\Artifacts\df\df7cd86f7d0e21da1180a673f9372e60
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\e5\e5458196b8b8bba2057ecbe60ca7f98e
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\e5\e5458196b8b8bba2057ecbe60ca7f98e
-    projectPath: Library\Artifacts\e5\e5458196b8b8bba2057ecbe60ca7f98e
+  - path: Daemon Alpha\Library\Artifacts\df\dfce1683388eeae3546bfc02dbb16f1a
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\df\dfce1683388eeae3546bfc02dbb16f1a
+    projectPath: Library\Artifacts\df\dfce1683388eeae3546bfc02dbb16f1a
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\e4\e40a31d6ff159ce408d88e1c85425436
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\e4\e40a31d6ff159ce408d88e1c85425436
+    projectPath: Library\Artifacts\e4\e40a31d6ff159ce408d88e1c85425436
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Library\Artifacts\e7\e768da2892a2eba02a37f7f204889f94
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\e7\e768da2892a2eba02a37f7f204889f94
     projectPath: Library\Artifacts\e7\e768da2892a2eba02a37f7f204889f94
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\e9\e9abc3c3c2b6eeb2230b12bb93cbcc50
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\e9\e9abc3c3c2b6eeb2230b12bb93cbcc50
     projectPath: Library\Artifacts\e9\e9abc3c3c2b6eeb2230b12bb93cbcc50
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\ea\ea6b67c9747157f6f9308028c2dc42aa
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ea\ea6b67c9747157f6f9308028c2dc42aa
-    projectPath: Library\Artifacts\ea\ea6b67c9747157f6f9308028c2dc42aa
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\ea\ea4bbebd714630a4543c884593bc1093
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ea\ea4bbebd714630a4543c884593bc1093
+    projectPath: Library\Artifacts\ea\ea4bbebd714630a4543c884593bc1093
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Library\Artifacts\ea\ea8359278b34e17d86c62230871975e4
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ea\ea8359278b34e17d86c62230871975e4
     projectPath: Library\Artifacts\ea\ea8359278b34e17d86c62230871975e4
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\eb\eba16f45becfd71dabea35b0ca0ada74
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\eb\eba16f45becfd71dabea35b0ca0ada74
     projectPath: Library\Artifacts\eb\eba16f45becfd71dabea35b0ca0ada74
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\eb\eba8efeb6100f05974a98f694dd98fcb
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\eb\eba8efeb6100f05974a98f694dd98fcb
-    projectPath: Library\Artifacts\eb\eba8efeb6100f05974a98f694dd98fcb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\eb\ebc4593626622187d6b5ee4d52e66036
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\eb\ebc4593626622187d6b5ee4d52e66036
-    projectPath: Library\Artifacts\eb\ebc4593626622187d6b5ee4d52e66036
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1568,29 +764,41 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\eb\ebde45ebe9e9f76617b6a268bf32d326
     projectPath: Library\Artifacts\eb\ebde45ebe9e9f76617b6a268bf32d326
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\ec\ec5603f4b74ebe5f97f9c8799fe788fe
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ec\ec5603f4b74ebe5f97f9c8799fe788fe
-    projectPath: Library\Artifacts\ec\ec5603f4b74ebe5f97f9c8799fe788fe
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\ec\ec7ba34d238e0e2d4a63184e5a1ce745
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ec\ec7ba34d238e0e2d4a63184e5a1ce745
     projectPath: Library\Artifacts\ec\ec7ba34d238e0e2d4a63184e5a1ce745
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\f1\f16488581b4b8bc01b56f65510469ec1
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\f1\f16488581b4b8bc01b56f65510469ec1
-    projectPath: Library\Artifacts\f1\f16488581b4b8bc01b56f65510469ec1
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\f2\f2c6986c6689a2a05823851857d9d5f6
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\f2\f2c6986c6689a2a05823851857d9d5f6
-    projectPath: Library\Artifacts\f2\f2c6986c6689a2a05823851857d9d5f6
+  - path: Daemon Alpha\Library\Artifacts\ec\ecda25d8c4352e937f8fd8f7d6638bac
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ec\ecda25d8c4352e937f8fd8f7d6638bac
+    projectPath: Library\Artifacts\ec\ecda25d8c4352e937f8fd8f7d6638bac
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\ed\ed94abaf0be65bb527ee4f0865058808
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ed\ed94abaf0be65bb527ee4f0865058808
+    projectPath: Library\Artifacts\ed\ed94abaf0be65bb527ee4f0865058808
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\f0\f0588092ce3dfd0746c8c8f018c2e445
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\f0\f0588092ce3dfd0746c8c8f018c2e445
+    projectPath: Library\Artifacts\f0\f0588092ce3dfd0746c8c8f018c2e445
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\f0\f0a6a449fb01929c007e59227851b372
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\f0\f0a6a449fb01929c007e59227851b372
+    projectPath: Library\Artifacts\f0\f0a6a449fb01929c007e59227851b372
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Daemon Alpha\Library\Artifacts\f0\f0d4cad478f4a26e9648dd03948da22b
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\f0\f0d4cad478f4a26e9648dd03948da22b
+    projectPath: Library\Artifacts\f0\f0d4cad478f4a26e9648dd03948da22b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1598,65 +806,41 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\f3\f33dfc5a736011dc82c36f3af94f840d
     projectPath: Library\Artifacts\f3\f33dfc5a736011dc82c36f3af94f840d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\f4\f40059c2d5832a9f5567c86881112165
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\f4\f40059c2d5832a9f5567c86881112165
     projectPath: Library\Artifacts\f4\f40059c2d5832a9f5567c86881112165
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\f4\f4117a81186776b19cbd83277e5489a0
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\f4\f4117a81186776b19cbd83277e5489a0
     projectPath: Library\Artifacts\f4\f4117a81186776b19cbd83277e5489a0
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Daemon Alpha\Library\Artifacts\f6\f60a7c3e928e8eece71633110f3b1758
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\f6\f60a7c3e928e8eece71633110f3b1758
+    projectPath: Library\Artifacts\f6\f60a7c3e928e8eece71633110f3b1758
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\f5\f515110d749a3be61e83e547c239cccd
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\f5\f515110d749a3be61e83e547c239cccd
-    projectPath: Library\Artifacts\f5\f515110d749a3be61e83e547c239cccd
+  - path: Daemon Alpha\Library\Artifacts\f7\f738793baaee6e4c1b96341a54daf73d
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\f7\f738793baaee6e4c1b96341a54daf73d
+    projectPath: Library\Artifacts\f7\f738793baaee6e4c1b96341a54daf73d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\f5\f551c2325ae1a46bb444a5a5b6d73f6c
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\f5\f551c2325ae1a46bb444a5a5b6d73f6c
-    projectPath: Library\Artifacts\f5\f551c2325ae1a46bb444a5a5b6d73f6c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\f7\f7c862440ce76f1055f376fe632b60d9
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\f7\f7c862440ce76f1055f376fe632b60d9
-    projectPath: Library\Artifacts\f7\f7c862440ce76f1055f376fe632b60d9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Library\Artifacts\f8\f8d94ab0a3cf45117482c644687f2591
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\f8\f8d94ab0a3cf45117482c644687f2591
     projectPath: Library\Artifacts\f8\f8d94ab0a3cf45117482c644687f2591
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\f9\f90aac9403efa515714e4d510f35741a
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\f9\f90aac9403efa515714e4d510f35741a
     projectPath: Library\Artifacts\f9\f90aac9403efa515714e4d510f35741a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\fa\fafe97beab701476870a43825a5e8223
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\fa\fafe97beab701476870a43825a5e8223
-    projectPath: Library\Artifacts\fa\fafe97beab701476870a43825a5e8223
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\fb\fb0d45aada5ba8ceb0a17c377213ff8c
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\fb\fb0d45aada5ba8ceb0a17c377213ff8c
-    projectPath: Library\Artifacts\fb\fb0d45aada5ba8ceb0a17c377213ff8c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\fb\fb42e0a3659b73f7a2360198350a25a9
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\fb\fb42e0a3659b73f7a2360198350a25a9
-    projectPath: Library\Artifacts\fb\fb42e0a3659b73f7a2360198350a25a9
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1664,47 +848,17 @@ MonoBehaviour:
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\fb\fb6cce07775e45b9233b48cf3d44c982
     projectPath: Library\Artifacts\fb\fb6cce07775e45b9233b48cf3d44c982
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\fb\fbfe8639e53d2a6e4ec5c1550d5323fb
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\fb\fbfe8639e53d2a6e4ec5c1550d5323fb
-    projectPath: Library\Artifacts\fb\fbfe8639e53d2a6e4ec5c1550d5323fb
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\fc\fc9c87718dd1f77b4a6d259de271a17c
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\fc\fc9c87718dd1f77b4a6d259de271a17c
     projectPath: Library\Artifacts\fc\fc9c87718dd1f77b4a6d259de271a17c
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Daemon Alpha\Library\Artifacts\fc\fcb5846c7e2ec955afc291f5d783ea3c
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\fc\fcb5846c7e2ec955afc291f5d783ea3c
     projectPath: Library\Artifacts\fc\fcb5846c7e2ec955afc291f5d783ea3c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\fd\fd64dd95edbe922c9f5f0a222513c4ed
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\fd\fd64dd95edbe922c9f5f0a222513c4ed
-    projectPath: Library\Artifacts\fd\fd64dd95edbe922c9f5f0a222513c4ed
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\Artifacts\fd\fd97e0ce9c29ae7088d0726579e3958c
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\fd\fd97e0ce9c29ae7088d0726579e3958c
-    projectPath: Library\Artifacts\fd\fd97e0ce9c29ae7088d0726579e3958c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\fd\fd983fc87299bd252da936640d9c1ae1
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\fd\fd983fc87299bd252da936640d9c1ae1
-    projectPath: Library\Artifacts\fd\fd983fc87299bd252da936640d9c1ae1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Library\Artifacts\ff\fffa208583a959cf8eed027913fd5efa
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\Artifacts\ff\fffa208583a959cf8eed027913fd5efa
-    projectPath: Library\Artifacts\ff\fffa208583a959cf8eed027913fd5efa
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1720,12 +874,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Library\expandedItems
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\expandedItems
-    projectPath: Library\expandedItems
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Daemon Alpha\Library\gfu\cache\gitlocks.yaml
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
@@ -1864,33 +1012,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Daemon Alpha\Library\StateCache\Hierarchy\c682a6-47360ae6a766d2f47a.json
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\StateCache\Hierarchy\c682a6-47360ae6a766d2f47a.json
-    projectPath: Library\StateCache\Hierarchy\c682a6-47360ae6a766d2f47a.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\StateCache\Hierarchy\c682a6-8e1450909a12ba54db.json
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\StateCache\Hierarchy\c682a6-8e1450909a12ba54db.json
-    projectPath: Library\StateCache\Hierarchy\c682a6-8e1450909a12ba54db.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Daemon Alpha\Library\StateCache\Hierarchy\c682a6-90f2fd3fd655ed1408.json
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\StateCache\Hierarchy\c682a6-90f2fd3fd655ed1408.json
-    projectPath: Library\StateCache\Hierarchy\c682a6-90f2fd3fd655ed1408.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Daemon Alpha\Library\StateCache\Hierarchy\c682a6-baa4e56a0c4b0444ca.json
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\StateCache\Hierarchy\c682a6-baa4e56a0c4b0444ca.json
     projectPath: Library\StateCache\Hierarchy\c682a6-baa4e56a0c4b0444ca.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\StateCache\Hierarchy\c682a6-cfe22f92b6861d841a.json
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\StateCache\Hierarchy\c682a6-cfe22f92b6861d841a.json
-    projectPath: Library\StateCache\Hierarchy\c682a6-cfe22f92b6861d841a.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1900,33 +1024,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Daemon Alpha\Library\StateCache\SceneView\2a08d7-47360ae6a766d2f47a.json
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\StateCache\SceneView\2a08d7-47360ae6a766d2f47a.json
-    projectPath: Library\StateCache\SceneView\2a08d7-47360ae6a766d2f47a.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\StateCache\SceneView\2a08d7-8e1450909a12ba54db.json
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\StateCache\SceneView\2a08d7-8e1450909a12ba54db.json
-    projectPath: Library\StateCache\SceneView\2a08d7-8e1450909a12ba54db.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Daemon Alpha\Library\StateCache\SceneView\2a08d7-90f2fd3fd655ed1408.json
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\StateCache\SceneView\2a08d7-90f2fd3fd655ed1408.json
-    projectPath: Library\StateCache\SceneView\2a08d7-90f2fd3fd655ed1408.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Daemon Alpha\Library\StateCache\SceneView\2a08d7-baa4e56a0c4b0444ca.json
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\StateCache\SceneView\2a08d7-baa4e56a0c4b0444ca.json
     projectPath: Library\StateCache\SceneView\2a08d7-baa4e56a0c4b0444ca.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Library\StateCache\SceneView\2a08d7-cfe22f92b6861d841a.json
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Library\StateCache\SceneView\2a08d7-cfe22f92b6861d841a.json
-    projectPath: Library\StateCache\SceneView\2a08d7-cfe22f92b6861d841a.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1942,212 +1042,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Daemon Alpha\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Daemon Alpha\Sheets\test - Copy - Copy - Copy - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test - Copy - Copy - Copy
-      - Copy.st
-    projectPath: Sheets\test - Copy - Copy - Copy - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\test - Copy - Copy - Copy (2).st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test - Copy - Copy - Copy
-      (2).st
-    projectPath: Sheets\test - Copy - Copy - Copy (2).st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\test - Copy - Copy - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test - Copy - Copy - Copy.st
-    projectPath: Sheets\test - Copy - Copy - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\test - Copy - Copy (2) - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test - Copy - Copy (2)
-      - Copy.st
-    projectPath: Sheets\test - Copy - Copy (2) - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\test - Copy - Copy (2).st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test - Copy - Copy (2).st
-    projectPath: Sheets\test - Copy - Copy (2).st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\test - Copy - Copy (3).st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test - Copy - Copy (3).st
-    projectPath: Sheets\test - Copy - Copy (3).st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\test - Copy - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test - Copy - Copy.st
-    projectPath: Sheets\test - Copy - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\test - Copy (2) - Copy - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test - Copy (2) - Copy
-      - Copy.st
-    projectPath: Sheets\test - Copy (2) - Copy - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\test - Copy (2) - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test - Copy (2) - Copy.st
-    projectPath: Sheets\test - Copy (2) - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\test - Copy (2).st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test - Copy (2).st
-    projectPath: Sheets\test - Copy (2).st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\test - Copy (3) - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test - Copy (3) - Copy.st
-    projectPath: Sheets\test - Copy (3) - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\test - Copy (3).st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test - Copy (3).st
-    projectPath: Sheets\test - Copy (3).st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\test - Copy (4) - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test - Copy (4) - Copy.st
-    projectPath: Sheets\test - Copy (4) - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\test - Copy (4).st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test - Copy (4).st
-    projectPath: Sheets\test - Copy (4).st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Daemon Alpha\Sheets\test - Copy.st
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test - Copy.st
     projectPath: Sheets\test - Copy.st
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\test.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\test.st
-    projectPath: Sheets\test.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Daemon Alpha\Sheets\xo - Copy - Copy - Copy - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo - Copy - Copy - Copy
-      - Copy.st
-    projectPath: Sheets\xo - Copy - Copy - Copy - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\xo - Copy - Copy - Copy (2).st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo - Copy - Copy - Copy
-      (2).st
-    projectPath: Sheets\xo - Copy - Copy - Copy (2).st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\xo - Copy - Copy - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo - Copy - Copy - Copy.st
-    projectPath: Sheets\xo - Copy - Copy - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\xo - Copy - Copy (2) - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo - Copy - Copy (2) -
-      Copy.st
-    projectPath: Sheets\xo - Copy - Copy (2) - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\xo - Copy - Copy (2).st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo - Copy - Copy (2).st
-    projectPath: Sheets\xo - Copy - Copy (2).st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\xo - Copy - Copy (3).st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo - Copy - Copy (3).st
-    projectPath: Sheets\xo - Copy - Copy (3).st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\xo - Copy - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo - Copy - Copy.st
-    projectPath: Sheets\xo - Copy - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\xo - Copy (2) - Copy - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo - Copy (2) - Copy -
-      Copy.st
-    projectPath: Sheets\xo - Copy (2) - Copy - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\xo - Copy (2) - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo - Copy (2) - Copy.st
-    projectPath: Sheets\xo - Copy (2) - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\xo - Copy (2).st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo - Copy (2).st
-    projectPath: Sheets\xo - Copy (2).st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\xo - Copy (3) - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo - Copy (3) - Copy.st
-    projectPath: Sheets\xo - Copy (3) - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\xo - Copy (3).st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo - Copy (3).st
-    projectPath: Sheets\xo - Copy (3).st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\xo - Copy (4) - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo - Copy (4) - Copy.st
-    projectPath: Sheets\xo - Copy (4) - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\xo - Copy (4).st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo - Copy (4).st
-    projectPath: Sheets\xo - Copy (4).st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\xo - Copy.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo - Copy.st
-    projectPath: Sheets\xo - Copy.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Daemon Alpha\Sheets\xo.st
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Sheets\xo.st
-    projectPath: Sheets\xo.st
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Daemon Alpha\Temp\__Backupscenes\0.backup
     fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
@@ -2160,363 +1060,135 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-02e278df9a2d9104faab2e4f5ad4e0ce
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-02e278df9a2d9104faab2e4f5ad4e0ce
-    projectPath: Temp\UnityTempFile-02e278df9a2d9104faab2e4f5ad4e0ce
+  - path: Daemon Alpha\Temp\UnityTempFile-101e83025f31d35478718bd9066a2c2f
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-101e83025f31d35478718bd9066a2c2f
+    projectPath: Temp\UnityTempFile-101e83025f31d35478718bd9066a2c2f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-07e87a19acac8284a861cd64dc1f447c
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-07e87a19acac8284a861cd64dc1f447c
-    projectPath: Temp\UnityTempFile-07e87a19acac8284a861cd64dc1f447c
+  - path: Daemon Alpha\Temp\UnityTempFile-28ee4f8207b5c4a44b4156efe8f8f88a
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-28ee4f8207b5c4a44b4156efe8f8f88a
+    projectPath: Temp\UnityTempFile-28ee4f8207b5c4a44b4156efe8f8f88a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-0a4ab534c9e24a24eba809581ff015cd
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-0a4ab534c9e24a24eba809581ff015cd
-    projectPath: Temp\UnityTempFile-0a4ab534c9e24a24eba809581ff015cd
+  - path: Daemon Alpha\Temp\UnityTempFile-303cefcf13bf4e647b6cf500ed18195c
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-303cefcf13bf4e647b6cf500ed18195c
+    projectPath: Temp\UnityTempFile-303cefcf13bf4e647b6cf500ed18195c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-0e7c9522a8d3ec642bd1579f63c2cd61
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-0e7c9522a8d3ec642bd1579f63c2cd61
-    projectPath: Temp\UnityTempFile-0e7c9522a8d3ec642bd1579f63c2cd61
+  - path: Daemon Alpha\Temp\UnityTempFile-3772c16a777f6ec499869c53f5306219
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-3772c16a777f6ec499869c53f5306219
+    projectPath: Temp\UnityTempFile-3772c16a777f6ec499869c53f5306219
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-10841906667b02c498da2bb662a7a5c4
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-10841906667b02c498da2bb662a7a5c4
-    projectPath: Temp\UnityTempFile-10841906667b02c498da2bb662a7a5c4
+  - path: Daemon Alpha\Temp\UnityTempFile-3c298c2943d97d74d91633ba09aad528
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-3c298c2943d97d74d91633ba09aad528
+    projectPath: Temp\UnityTempFile-3c298c2943d97d74d91633ba09aad528
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-1610acd582ec63b43a6ed8bd98c4f405
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-1610acd582ec63b43a6ed8bd98c4f405
-    projectPath: Temp\UnityTempFile-1610acd582ec63b43a6ed8bd98c4f405
+  - path: Daemon Alpha\Temp\UnityTempFile-51961b9d1774b704aa6e9a52176d1939
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-51961b9d1774b704aa6e9a52176d1939
+    projectPath: Temp\UnityTempFile-51961b9d1774b704aa6e9a52176d1939
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-1d31a255116fcd847b37102f88ca40ad
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-1d31a255116fcd847b37102f88ca40ad
-    projectPath: Temp\UnityTempFile-1d31a255116fcd847b37102f88ca40ad
+  - path: Daemon Alpha\Temp\UnityTempFile-5b107d2c3fbebc242a2a445dd55e576f
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-5b107d2c3fbebc242a2a445dd55e576f
+    projectPath: Temp\UnityTempFile-5b107d2c3fbebc242a2a445dd55e576f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-1ffb64de09c45ca4e9f2f805d5ecbd5b
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-1ffb64de09c45ca4e9f2f805d5ecbd5b
-    projectPath: Temp\UnityTempFile-1ffb64de09c45ca4e9f2f805d5ecbd5b
+  - path: Daemon Alpha\Temp\UnityTempFile-5cc28229acbaf0f428b73c0e9912392a
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-5cc28229acbaf0f428b73c0e9912392a
+    projectPath: Temp\UnityTempFile-5cc28229acbaf0f428b73c0e9912392a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-285d045c86bf51d4d86f7e70df8573e0
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-285d045c86bf51d4d86f7e70df8573e0
-    projectPath: Temp\UnityTempFile-285d045c86bf51d4d86f7e70df8573e0
+  - path: Daemon Alpha\Temp\UnityTempFile-673223a62181f9b4880d08703dc6f9b5
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-673223a62181f9b4880d08703dc6f9b5
+    projectPath: Temp\UnityTempFile-673223a62181f9b4880d08703dc6f9b5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-2e35bbccda401fd4cb4d306c34d77a96
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-2e35bbccda401fd4cb4d306c34d77a96
-    projectPath: Temp\UnityTempFile-2e35bbccda401fd4cb4d306c34d77a96
+  - path: Daemon Alpha\Temp\UnityTempFile-8160ff0bce4c782408cd96a91438784f
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-8160ff0bce4c782408cd96a91438784f
+    projectPath: Temp\UnityTempFile-8160ff0bce4c782408cd96a91438784f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-32853f1e03d73e747be8970fa9b742f5
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-32853f1e03d73e747be8970fa9b742f5
-    projectPath: Temp\UnityTempFile-32853f1e03d73e747be8970fa9b742f5
+  - path: Daemon Alpha\Temp\UnityTempFile-88a1bde68613ee94aa432d29903ebe29
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-88a1bde68613ee94aa432d29903ebe29
+    projectPath: Temp\UnityTempFile-88a1bde68613ee94aa432d29903ebe29
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-39455d9126190f44b88f26ff65a46183
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-39455d9126190f44b88f26ff65a46183
-    projectPath: Temp\UnityTempFile-39455d9126190f44b88f26ff65a46183
+  - path: Daemon Alpha\Temp\UnityTempFile-a0b944efa80b70f49ab97c91ee2759d2
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-a0b944efa80b70f49ab97c91ee2759d2
+    projectPath: Temp\UnityTempFile-a0b944efa80b70f49ab97c91ee2759d2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-3fbb0b37f676b974b8984729ed3d259c
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-3fbb0b37f676b974b8984729ed3d259c
-    projectPath: Temp\UnityTempFile-3fbb0b37f676b974b8984729ed3d259c
+  - path: Daemon Alpha\Temp\UnityTempFile-a7a905d62c8ce8e419457bcec07e8aa3
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-a7a905d62c8ce8e419457bcec07e8aa3
+    projectPath: Temp\UnityTempFile-a7a905d62c8ce8e419457bcec07e8aa3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-45ba53d7ee6602a49a2cc4e7ec1f3a14
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-45ba53d7ee6602a49a2cc4e7ec1f3a14
-    projectPath: Temp\UnityTempFile-45ba53d7ee6602a49a2cc4e7ec1f3a14
+  - path: Daemon Alpha\Temp\UnityTempFile-b07519cf65f18f14089a6d591c34e371
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-b07519cf65f18f14089a6d591c34e371
+    projectPath: Temp\UnityTempFile-b07519cf65f18f14089a6d591c34e371
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-46beaa5d97df59e4b9ba300b201e0d37
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-46beaa5d97df59e4b9ba300b201e0d37
-    projectPath: Temp\UnityTempFile-46beaa5d97df59e4b9ba300b201e0d37
+  - path: Daemon Alpha\Temp\UnityTempFile-b3e7a07e4a66ffe4e9b05146c5652b9b
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-b3e7a07e4a66ffe4e9b05146c5652b9b
+    projectPath: Temp\UnityTempFile-b3e7a07e4a66ffe4e9b05146c5652b9b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-46fd20320b4924a4398215e24e840497
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-46fd20320b4924a4398215e24e840497
-    projectPath: Temp\UnityTempFile-46fd20320b4924a4398215e24e840497
+  - path: Daemon Alpha\Temp\UnityTempFile-bc87ce07acb5e5743ac03ed196fedd2e
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-bc87ce07acb5e5743ac03ed196fedd2e
+    projectPath: Temp\UnityTempFile-bc87ce07acb5e5743ac03ed196fedd2e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-49090d0d42b2bd54085f3185c634ff7b
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-49090d0d42b2bd54085f3185c634ff7b
-    projectPath: Temp\UnityTempFile-49090d0d42b2bd54085f3185c634ff7b
+  - path: Daemon Alpha\Temp\UnityTempFile-c667ef270e8284e46997d58cb86f90e3
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-c667ef270e8284e46997d58cb86f90e3
+    projectPath: Temp\UnityTempFile-c667ef270e8284e46997d58cb86f90e3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-50c46bf059e353c48bbb0c574f4afb90
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-50c46bf059e353c48bbb0c574f4afb90
-    projectPath: Temp\UnityTempFile-50c46bf059e353c48bbb0c574f4afb90
+  - path: Daemon Alpha\Temp\UnityTempFile-c6a3cfef7c762794db1a212b39654f92
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-c6a3cfef7c762794db1a212b39654f92
+    projectPath: Temp\UnityTempFile-c6a3cfef7c762794db1a212b39654f92
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-50e814c9e6c86b742a2b4b1637a8b908
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-50e814c9e6c86b742a2b4b1637a8b908
-    projectPath: Temp\UnityTempFile-50e814c9e6c86b742a2b4b1637a8b908
+  - path: Daemon Alpha\Temp\UnityTempFile-d043fe7f6125e9c4b8019f3f09534692
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-d043fe7f6125e9c4b8019f3f09534692
+    projectPath: Temp\UnityTempFile-d043fe7f6125e9c4b8019f3f09534692
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-5154f7c93162e2c449d4095f3af812a0
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-5154f7c93162e2c449d4095f3af812a0
-    projectPath: Temp\UnityTempFile-5154f7c93162e2c449d4095f3af812a0
+  - path: Daemon Alpha\Temp\UnityTempFile-d8d3b625445bc084dab8647752278a45
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-d8d3b625445bc084dab8647752278a45
+    projectPath: Temp\UnityTempFile-d8d3b625445bc084dab8647752278a45
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-529fddad2ea5b3b4c8789d9f4eddb95d
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-529fddad2ea5b3b4c8789d9f4eddb95d
-    projectPath: Temp\UnityTempFile-529fddad2ea5b3b4c8789d9f4eddb95d
+  - path: Daemon Alpha\Temp\UnityTempFile-dd36c965694a52040a44f65f8e94a910
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-dd36c965694a52040a44f65f8e94a910
+    projectPath: Temp\UnityTempFile-dd36c965694a52040a44f65f8e94a910
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-5ad269954d8557942b9b0573f9d1a697
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-5ad269954d8557942b9b0573f9d1a697
-    projectPath: Temp\UnityTempFile-5ad269954d8557942b9b0573f9d1a697
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-5feb97bfb991e4a438d23597c2cc4d8f
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-5feb97bfb991e4a438d23597c2cc4d8f
-    projectPath: Temp\UnityTempFile-5feb97bfb991e4a438d23597c2cc4d8f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-62a0dc78206f9244892e1d0b7e02e82b
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-62a0dc78206f9244892e1d0b7e02e82b
-    projectPath: Temp\UnityTempFile-62a0dc78206f9244892e1d0b7e02e82b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-67656779a0661e44e837d13271f9dbbc
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-67656779a0661e44e837d13271f9dbbc
-    projectPath: Temp\UnityTempFile-67656779a0661e44e837d13271f9dbbc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-6c72bc03c98668943a87ca0097378be9
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-6c72bc03c98668943a87ca0097378be9
-    projectPath: Temp\UnityTempFile-6c72bc03c98668943a87ca0097378be9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-759be8d68262b134691647b94a00cb4a
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-759be8d68262b134691647b94a00cb4a
-    projectPath: Temp\UnityTempFile-759be8d68262b134691647b94a00cb4a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-7859d8b44baf18d4a8d514a614acd495
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-7859d8b44baf18d4a8d514a614acd495
-    projectPath: Temp\UnityTempFile-7859d8b44baf18d4a8d514a614acd495
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-81d9ad862f5df834ca580fce6e69b875
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-81d9ad862f5df834ca580fce6e69b875
-    projectPath: Temp\UnityTempFile-81d9ad862f5df834ca580fce6e69b875
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-8ebc495b9a08c3a47b419629c897e656
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-8ebc495b9a08c3a47b419629c897e656
-    projectPath: Temp\UnityTempFile-8ebc495b9a08c3a47b419629c897e656
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-9194376bc5a38eb44bbb0ac72fd709e0
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-9194376bc5a38eb44bbb0ac72fd709e0
-    projectPath: Temp\UnityTempFile-9194376bc5a38eb44bbb0ac72fd709e0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-92db3c7bee0962a4c87d39e3bf17df4b
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-92db3c7bee0962a4c87d39e3bf17df4b
-    projectPath: Temp\UnityTempFile-92db3c7bee0962a4c87d39e3bf17df4b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-9485a2c4f24252e4c829bb0f5a3a799c
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-9485a2c4f24252e4c829bb0f5a3a799c
-    projectPath: Temp\UnityTempFile-9485a2c4f24252e4c829bb0f5a3a799c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-986789d0044a4004bb7a04b1b563f4c7
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-986789d0044a4004bb7a04b1b563f4c7
-    projectPath: Temp\UnityTempFile-986789d0044a4004bb7a04b1b563f4c7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-9ab8410f36d34db45855bc332b14eaca
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-9ab8410f36d34db45855bc332b14eaca
-    projectPath: Temp\UnityTempFile-9ab8410f36d34db45855bc332b14eaca
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-9b2d4e421825ca24db558f1aef505567
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-9b2d4e421825ca24db558f1aef505567
-    projectPath: Temp\UnityTempFile-9b2d4e421825ca24db558f1aef505567
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-9e9d734258659c648b0881fa2b4806da
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-9e9d734258659c648b0881fa2b4806da
-    projectPath: Temp\UnityTempFile-9e9d734258659c648b0881fa2b4806da
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-a10425bc94fce0e40a439ae4db768e54
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-a10425bc94fce0e40a439ae4db768e54
-    projectPath: Temp\UnityTempFile-a10425bc94fce0e40a439ae4db768e54
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-a37d5ec294bbb4146aba3fea1a5bb465
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-a37d5ec294bbb4146aba3fea1a5bb465
-    projectPath: Temp\UnityTempFile-a37d5ec294bbb4146aba3fea1a5bb465
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-a5801c18624d7e2489a25dca2d415d91
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-a5801c18624d7e2489a25dca2d415d91
-    projectPath: Temp\UnityTempFile-a5801c18624d7e2489a25dca2d415d91
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-a997fd285beaddb47a299477945f6fb5
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-a997fd285beaddb47a299477945f6fb5
-    projectPath: Temp\UnityTempFile-a997fd285beaddb47a299477945f6fb5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-a99b2af345098cf43a2c60bc3a701b75
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-a99b2af345098cf43a2c60bc3a701b75
-    projectPath: Temp\UnityTempFile-a99b2af345098cf43a2c60bc3a701b75
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-a9bb2a6e0a890b1478d7171e0397f338
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-a9bb2a6e0a890b1478d7171e0397f338
-    projectPath: Temp\UnityTempFile-a9bb2a6e0a890b1478d7171e0397f338
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-ab5c325afaee4fa4e8934796676c704f
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-ab5c325afaee4fa4e8934796676c704f
-    projectPath: Temp\UnityTempFile-ab5c325afaee4fa4e8934796676c704f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-b68eddab80649154fbc93cae503f3829
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-b68eddab80649154fbc93cae503f3829
-    projectPath: Temp\UnityTempFile-b68eddab80649154fbc93cae503f3829
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-c384d213ada394947ab4107de731516d
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-c384d213ada394947ab4107de731516d
-    projectPath: Temp\UnityTempFile-c384d213ada394947ab4107de731516d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-c7fc5cd8726f92b40b812ce45d677091
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-c7fc5cd8726f92b40b812ce45d677091
-    projectPath: Temp\UnityTempFile-c7fc5cd8726f92b40b812ce45d677091
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-cabc74d6af0f88543ace7da1f596c323
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-cabc74d6af0f88543ace7da1f596c323
-    projectPath: Temp\UnityTempFile-cabc74d6af0f88543ace7da1f596c323
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-d203787269370ec459e5f17c6c69ed0a
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-d203787269370ec459e5f17c6c69ed0a
-    projectPath: Temp\UnityTempFile-d203787269370ec459e5f17c6c69ed0a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-d6cb70e8c3a4e914490e3b12527c2029
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-d6cb70e8c3a4e914490e3b12527c2029
-    projectPath: Temp\UnityTempFile-d6cb70e8c3a4e914490e3b12527c2029
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-d6fab7af0eb41f04384b8a944185ce61
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-d6fab7af0eb41f04384b8a944185ce61
-    projectPath: Temp\UnityTempFile-d6fab7af0eb41f04384b8a944185ce61
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-d98064bcd7a0997428c3538592bf6161
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-d98064bcd7a0997428c3538592bf6161
-    projectPath: Temp\UnityTempFile-d98064bcd7a0997428c3538592bf6161
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-e0214f1a679314546a99d7bed46a4196
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-e0214f1a679314546a99d7bed46a4196
-    projectPath: Temp\UnityTempFile-e0214f1a679314546a99d7bed46a4196
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-e1120a980e892d4488a3635e073f176f
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-e1120a980e892d4488a3635e073f176f
-    projectPath: Temp\UnityTempFile-e1120a980e892d4488a3635e073f176f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-e86299e3b10fe1048a5de225f7728ad3
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-e86299e3b10fe1048a5de225f7728ad3
-    projectPath: Temp\UnityTempFile-e86299e3b10fe1048a5de225f7728ad3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-eaaed931a0fac724cb9cb282a6053dfa
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-eaaed931a0fac724cb9cb282a6053dfa
-    projectPath: Temp\UnityTempFile-eaaed931a0fac724cb9cb282a6053dfa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-eae24ec5e06a333468d0d281be80fe5f
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-eae24ec5e06a333468d0d281be80fe5f
-    projectPath: Temp\UnityTempFile-eae24ec5e06a333468d0d281be80fe5f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-ef21058561b27254cbd97bfc18c6bf64
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-ef21058561b27254cbd97bfc18c6bf64
-    projectPath: Temp\UnityTempFile-ef21058561b27254cbd97bfc18c6bf64
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-f911fce4e20363143ac14fd21503f103
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-f911fce4e20363143ac14fd21503f103
-    projectPath: Temp\UnityTempFile-f911fce4e20363143ac14fd21503f103
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Daemon Alpha\Temp\UnityTempFile-fc27cf62aad3a844da6dcdc97e1ca3d9
-    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-fc27cf62aad3a844da6dcdc97e1ca3d9
-    projectPath: Temp\UnityTempFile-fc27cf62aad3a844da6dcdc97e1ca3d9
+  - path: Daemon Alpha\Temp\UnityTempFile-e949e577a63e7084e8633120e4dc24ba
+    fullPath: H:\Unity Projects\Daemon\Daemon Alpha\Temp\UnityTempFile-e949e577a63e7084e8633120e4dc24ba
+    projectPath: Temp\UnityTempFile-e949e577a63e7084e8633120e4dc24ba
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
