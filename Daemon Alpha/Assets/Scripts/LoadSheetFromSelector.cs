@@ -7,6 +7,8 @@ public class LoadSheetFromSelector : MonoBehaviour
 {
     public GameObject sheet, templateName, parent;
     bool sheetLoaded = false;
+    bool sheetPile = false;
+
     public void genSheetFromButton()
     {
         if (parent.GetComponent<DeleteSheet>().sheetPresent())
@@ -25,8 +27,20 @@ public class LoadSheetFromSelector : MonoBehaviour
 
         if (!sheetLoaded)
         {
-            sheet.GetComponent<SheetLoader>().loadFromButton("Sheets\\" + templateName.GetComponent<Text>().text + ".st");
+            if (sheetPile)
+            {
+                sheet.GetComponent<SheetLoader>().load(templateName.GetComponent<Text>().text);
+            }
+            else
+            {
+                sheet.GetComponent<SheetLoader>().loadFromButton("Sheets\\" + templateName.GetComponent<Text>().text + ".st");
+            }
             sheetLoaded = true;
         }
+    }
+
+    public void isSheetPile()
+    {
+        sheetPile = true;
     }
 }

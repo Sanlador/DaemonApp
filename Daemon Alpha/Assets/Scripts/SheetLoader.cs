@@ -26,6 +26,7 @@ public class SheetLoader : MonoBehaviour
         GameObject field;
         foreach (KeyValuePair<string, (string, float, float, float, float)> tuple in sheet.getTextFields())
         {
+            print(tuple);
             if (tuple.Value.Item1 == "")
             {
                 field = Instantiate(label, transform);
@@ -36,7 +37,8 @@ public class SheetLoader : MonoBehaviour
                     field.GetComponent<InputField>().text = tuple.Key;
                 }
                 else
-                {field.GetComponent<Text>().text = tuple.Key;
+                {
+                    field.GetComponent<Text>().text = tuple.Key;
                 }
                 field.GetComponent<RectTransform>().localPosition = new Vector3(tuple.Value.Item2, tuple.Value.Item3, 0);
             }
@@ -47,9 +49,16 @@ public class SheetLoader : MonoBehaviour
                 {
                     field.GetComponent<FieldManager>().setSheet(sheet, tuple.Key, tuple.Value.Item1, tuple.Value.Item2, tuple.Value.Item3);
                     field.GetComponent<DragHandler>().dropLocation = gameObject;
+                    field.GetComponent<FieldManager>().setSheet(sheet, tuple.Key, tuple.Value.Item1, tuple.Value.Item2, tuple.Value.Item3);
+                    field.GetComponent<DragHandler>().dropLocation = gameObject;
                     field.GetComponent<InputField>().text = tuple.Value.Item1;
+                    field.GetComponent<Holder>().held.GetComponent<InputField>().text = tuple.Key;
                 }
-                field.GetComponent<Holder>().held.GetComponent<InputField>().text = tuple.Key;
+                else
+                {
+                    field.GetComponent<Text>().text = tuple.Value.Item1;
+                    field.GetComponent<Holder>().held.GetComponent<Text>().text = tuple.Key;
+                }
                 field.GetComponent<RectTransform>().localPosition = new Vector3(tuple.Value.Item2, tuple.Value.Item3, 0);
             }
         }
@@ -80,13 +89,14 @@ public class SheetLoader : MonoBehaviour
                 field.GetComponent<FieldManager>().setSheet(sheet, tuple.Key, tuple.Value.Item1, tuple.Value.Item2, tuple.Value.Item3, tuple.Value.Item4);
                 field.GetComponent<DragHandler>().dropLocation = gameObject;
                 field.GetComponent<Holder>().held2.GetComponent<InputField>().text = tuple.Key;
+                field.GetComponent<Holder>().held.GetComponent<InputField>().text = tuple.Value.Item1.ToString();
+                field.GetComponent<Holder>().held1.GetComponent<InputField>().text = tuple.Value.Item2.ToString();
             }
             else
             {
                 field.GetComponent<Text>().text = tuple.Key;
             }
-            field.GetComponent<Holder>().held.GetComponent<InputField>().text = tuple.Value.Item1.ToString();
-            field.GetComponent<Holder>().held1.GetComponent<InputField>().text = tuple.Value.Item2.ToString();
+            
             field.GetComponent<RectTransform>().localPosition = new Vector3(tuple.Value.Item3, tuple.Value.Item4, 0);
 
         }
@@ -99,7 +109,7 @@ public class SheetLoader : MonoBehaviour
 
     public void load(string filename)
     {
-        generateSheet(@"sheets\" + filename + ".st");
+        generateSheet(@"Instances\" + filename + ".st");
     }
 
     public InfoSheet getSheet()

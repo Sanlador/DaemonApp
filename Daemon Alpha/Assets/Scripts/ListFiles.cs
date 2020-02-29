@@ -11,6 +11,7 @@ public class ListFiles : MonoBehaviour
     public GameObject templateResult, inputContents, sheet, parent;
     List<GameObject> resultList;
     List<string> fileNames;
+    public bool isSheetPile;
 
     void Start()
     {
@@ -22,7 +23,11 @@ public class ListFiles : MonoBehaviour
             string sheetName = name.Remove(name.IndexOf(rm), rm.Length);
             sheetName = sheetName.Substring(0, sheetName.Length - 3);
             GameObject result = Instantiate(templateResult, transform.position, Quaternion.identity);
-            result.GetComponent< LoadSheetFromSelector>().parent = parent;
+            result.GetComponent<LoadSheetFromSelector>().parent = parent;
+
+            if (isSheetPile)
+                result.GetComponent<LoadSheetFromSelector>().isSheetPile();
+
             resultList.Add(result);
             fileNames.Add(sheetName);
             result.transform.SetParent(gameObject.transform);
