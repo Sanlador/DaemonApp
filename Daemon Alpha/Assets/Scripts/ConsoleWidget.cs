@@ -9,20 +9,42 @@ using UnityEngine.UIElements;
 public class ConsoleWidget : MonoBehaviour
 {
 
-	public int			maxLineCount = 1;
+	private float		contentSize = 4096.0f;
+	private float		lineSize = 40.1f;
 	public InputField	consoleInput;
 	public Text			consoleOutput;
+	public Scrollbar	scroll;
+	private VerticalLayoutGroup[] vlg;
+
+	uint newline_timeout = 0;
+
 
 	System.Random	rando = new System.Random();
 
 	List<string> lines = new List<string>();
 
 	void PrintLine(string line){
-		while(lines.Count >= maxLineCount){
-			lines.RemoveAt(0);
-		}
+		//while(lines.Count >= maxLineCount){
+			//lines.RemoveAt(0);
+		//}
 		lines.Add(line);
-		consoleOutput.text = string.Join("\n",lines);
+		consoleOutput.text = string.Join("\n",lines) + "\n\n";
+
+		scroll.value = 0.0f;//1.0f - ((lines.Count-1.0f)*lineSize / contentSize);
+		Canvas.ForceUpdateCanvases();
+		foreach(var v in vlg){
+			v.enabled = false;
+			v.enabled = true;
+		}
+		scroll.value = 0.0f;//1.0f - ((lines.Count-1.0f)*lineSize / contentSize);
+		Canvas.ForceUpdateCanvases();
+		newline_timeout = 2;
+		/*
+		foreach(var v in vlg){
+			v.enabled = false;
+			v.enabled = true;
+		}
+		*/
 	}
 
 
@@ -152,11 +174,16 @@ public class ConsoleWidget : MonoBehaviour
 		consoleInput = GetComponentInChildren<InputField>();
 		consoleOutput = GetComponentInChildren<UnityEngine.UI.Text>();
 		consoleInput.onValueChanged.AddListener(delegate {HandleChange(); });
+		scroll = GetComponentInChildren<Scrollbar>();
+		vlg = GetComponentsInChildren<VerticalLayoutGroup>(true);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+		if(newline_timeout > 0){
+			scroll.value = 0.0f;
+			newline_timeout--;
+		}
     }
 }

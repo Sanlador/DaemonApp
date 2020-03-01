@@ -18,7 +18,7 @@ public class Timeline : MonoBehaviour
 	public Button addCounter = null;
 	public Button addSheet = null;
 	public Button order = null;
-	public InputField sortBy = null;
+	public Dropdown sortBy = null;
 
 
 	public Transform viewTrans = null;
@@ -34,6 +34,7 @@ public class Timeline : MonoBehaviour
 	bool poppedUp = false;
 
 	List<GameObject>  events = new List<GameObject>();
+	List<String> sortables = new List<string>();
 
 	int buffer_size = 2;
 
@@ -43,6 +44,42 @@ public class Timeline : MonoBehaviour
 
 	float currentPosition = 0;
 	const float approach = 0.1f;
+
+
+	void recalc_sortables(){
+		bool first = true;
+		foreach( var QI in queue.queue){
+			if(QI.getType() !=0){
+				continue;
+			}
+			if(first){
+				first = false;
+				sortables = new List<string>(QI.getNumericalKeys());
+				continue;
+			}
+			List<string> intermed = new List<string>(sortables);
+			foreach(var s in intermed){
+				if( ! QI.hasNumericalKey(s) ){
+					sortables.Remove(s);
+				}
+			}
+
+		}
+
+		string x = "";
+		foreach(var k in sortables){
+			x+=k+" , ";
+		}
+		Debug.Log(x);
+
+
+		sortBy.options.Clear();
+		sortBy.RefreshShownValue();
+		foreach( var k in sortables){
+			sortBy.options.Add(new Dropdown.OptionData(k));
+		}
+		sortBy.RefreshShownValue();
+	}
 
 
 	QueueItem new_notif(){
@@ -60,9 +97,11 @@ public class Timeline : MonoBehaviour
 
 
 	QueueItem new_sheet(){
-		InfoSheet sheet = new InfoSheet("sheet"+sheet_count.ToString());
+		string name = "sheet"+sheet_count.ToString();
+		InfoSheet sheet = new InfoSheet(name);
 		sheet.addDynamic("initiative",(float)-sheet_count,float.PositiveInfinity,float.NegativeInfinity,(float)sheet_count,1f,1f);
 		sheet.addDynamic("reverse",(float)sheet_count,float.PositiveInfinity,float.NegativeInfinity,(float)sheet_count,1f,1f);
+		sheet.addDynamic(name,(float)sheet_count,float.PositiveInfinity,float.NegativeInfinity,(float)sheet_count,1f,1f);
 		sheet_count++;
 		return new QueueItem(sheet);
 	}
@@ -224,16 +263,17 @@ public class Timeline : MonoBehaviour
 	void sheet_button(){
 		Debug.Log("Sheet");
 		queue.addToQueue(new_sheet());
+		recalc_sortables();
 		do_popup();
 		//refresh();
 	}
 
 	void order_button(){
 		Debug.Log("Order");
-		if(sortBy.text.Length == 0){
+		if(sortBy.captionText.text.Length == 0){
 			return;
 		}
-		queue.orderBy(sortBy.text);
+		queue.orderBy(sortBy.captionText.text);
 		do_popup();
 		//refresh();
 	}
@@ -262,7 +302,7 @@ public class Timeline : MonoBehaviour
 		addSheet   = transform.Find("Sheet_Button").GetComponent<Button>();
 		order      = transform.Find("Order_Button").GetComponent<Button>();
 
-		sortBy     = transform.Find("Order_By_Field").GetComponent<InputField>();
+		sortBy     = transform.Find("Order_By_Field").GetComponent<Dropdown>();
 		viewTrans  = transform.Find("TimeLine_View").GetComponent<Transform>();
 
 		notification = transform.Find("Popup").gameObject;

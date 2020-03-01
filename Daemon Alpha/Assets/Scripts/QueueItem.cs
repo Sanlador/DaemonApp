@@ -42,6 +42,24 @@ public class QueueItem
         return notification;
     }
 
+	public List<string> getNumericalKeys (){
+		if(itemType != 0){
+			return null;
+		}
+		List<string> result = new List<string>(entity.staticNumericalFields.Keys);
+		result.AddRange(entity.dynamicNumericalFields.Keys);
+		return result;
+	}
+
+	public bool hasNumericalKey (string key){
+		if(itemType != 0){
+			return false;
+		}
+		bool S = entity.staticNumericalFields.ContainsKey(key);
+		bool D = entity.dynamicNumericalFields.ContainsKey(key);
+		return (S|D);
+	}
+
     public float getNumericalValue(string key)
     {
         if (0 == itemType)
