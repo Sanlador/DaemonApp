@@ -8,10 +8,12 @@ using UnityEngine.UI;
 public class ListFiles : MonoBehaviour
 {
     public string folder;
-    public GameObject templateResult, inputContents, sheet, parent;
+    public GameObject templateResult, inputContents, sheet, parent, selectionScreen;
+    public GameObject pile;
     List<GameObject> resultList;
     List<string> fileNames;
     public bool isSheetPile;
+    bool newPile = false;
 
     void Start()
     {
@@ -26,7 +28,7 @@ public class ListFiles : MonoBehaviour
             result.GetComponent<LoadSheetFromSelector>().parent = parent;
 
             if (isSheetPile)
-                result.GetComponent<LoadSheetFromSelector>().isSheetPile();
+                result.GetComponent<LoadSheetFromSelector>().isSheetPile(pile);
 
             resultList.Add(result);
             fileNames.Add(sheetName);
@@ -56,6 +58,11 @@ public class ListFiles : MonoBehaviour
                 result.SetActive(true);
             }
         }
+    }
+
+    public void isNewPile()
+    {
+        newPile = true;
     }
 
     // Update is called once per frame

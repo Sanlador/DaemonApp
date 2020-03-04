@@ -31,7 +31,7 @@ RectTransform:
   m_GameObject: {fileID: 5900414851648148133}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7572314, y: 0.94521123, z: 0.92}
+  m_LocalScale: {x: 0.7603925, y: 0.79163, z: 0.92}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -97,6 +97,7 @@ MonoBehaviour:
     type: 3}
   thisObject: {fileID: 5900414851648148133}
   label: {fileID: 3841479470511074949, guid: 9b1ef6df69dd877468a726f9e4841dac, type: 3}
+  instanceName: {fileID: 0}
 --- !u!114 &5900414851648148185
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -56,7 +56,7 @@ public class SheetLoader : MonoBehaviour
                 }
                 else
                 {
-                    field.GetComponent<Text>().text = tuple.Value.Item1;
+                    field.GetComponent<Holder>().held1.GetComponent<InputField>().text = tuple.Value.Item1;
                     field.GetComponent<Holder>().held.GetComponent<Text>().text = tuple.Key;
                 }
                 field.GetComponent<RectTransform>().localPosition = new Vector3(tuple.Value.Item2, tuple.Value.Item3, 0);
@@ -76,6 +76,7 @@ public class SheetLoader : MonoBehaviour
             else
             {
                 field.GetComponent<Text>().text = tuple.Key;
+                print(tuple.Value.Item1.ToString());
                 field.GetComponent<Holder>().held.GetComponent<Text>().text = tuple.Value.Item1.ToString();
             }
             field.GetComponent<RectTransform>().localPosition = new Vector3(tuple.Value.Item2, tuple.Value.Item3, 0);
@@ -95,6 +96,8 @@ public class SheetLoader : MonoBehaviour
             else
             {
                 field.GetComponent<Text>().text = tuple.Key;
+                field.GetComponent<Holder>().held.GetComponent<InputField>().text = tuple.Value.Item1.ToString(); 
+                field.GetComponent<Holder>().held1.GetComponent<Text>().text = tuple.Value.Item2.ToString();
             }
             
             field.GetComponent<RectTransform>().localPosition = new Vector3(tuple.Value.Item3, tuple.Value.Item4, 0);

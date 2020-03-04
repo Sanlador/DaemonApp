@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class LoadSheetFromSelector : MonoBehaviour
 {
-    public GameObject sheet, templateName, parent;
+    public GameObject sheet, templateName, parent, pile;
     bool sheetLoaded = false;
     bool sheetPile = false;
 
@@ -30,6 +30,8 @@ public class LoadSheetFromSelector : MonoBehaviour
             if (sheetPile)
             {
                 sheet.GetComponent<SheetLoader>().load(templateName.GetComponent<Text>().text);
+                pile.GetComponent<SheetPile>().addSheet(sheet);
+
             }
             else
             {
@@ -38,9 +40,9 @@ public class LoadSheetFromSelector : MonoBehaviour
             sheetLoaded = true;
         }
     }
-
-    public void isSheetPile()
+    public void isSheetPile(GameObject p)
     {
+        pile = p;
         sheetPile = true;
     }
 }

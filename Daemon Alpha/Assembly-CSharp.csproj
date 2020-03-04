@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AddPile.cs" />
+    <Compile Include="Assets\Scripts\AddSheet.cs" />
     <Compile Include="Assets\Scripts\ConsoleWidget.cs" />
     <Compile Include="Assets\Scripts\DeleteObject.cs" />
     <Compile Include="Assets\Scripts\DeleteSheet.cs" />
@@ -81,6 +83,7 @@
     <Compile Include="Assets\Scripts\SheetController.cs" />
     <Compile Include="Assets\Scripts\SheetFileManager.cs" />
     <Compile Include="Assets\Scripts\SheetLoader.cs" />
+    <Compile Include="Assets\Scripts\SheetPile.cs" />
     <Compile Include="Assets\Scripts\Timeline.cs" />
     <Compile Include="Assets\Scripts\Unit Tests\FileManagerTests.cs" />
     <Compile Include="Assets\Scripts\Unit Tests\QueueTest.cs" />

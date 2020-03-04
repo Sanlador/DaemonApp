@@ -21,3 +21,4 @@
 [0214/134334.475:WARNING:quota_manager.cc(1833)] Create directory failed for path
 [0214/134334.476:ERROR:waituntilobserver.cpp(145)] NOT IMPLEMENTED
 [0214/134334.550:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0229/192627.215:ERROR:browser_host_impl.cc(1548)] Invalid URL passed to CefBrowserHostImpl::LoadURL: 
