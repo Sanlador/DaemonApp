@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class LoadSheetFromSelector : MonoBehaviour
 {
-    public GameObject sheet, templateName, parent, pile;
+    public GameObject sheet, templateName, parent, pile, selector;
     bool sheetLoaded = false;
     bool sheetPile = false;
 
@@ -13,7 +13,6 @@ public class LoadSheetFromSelector : MonoBehaviour
     {
         if (parent.GetComponent<DeleteSheet>().sheetPresent())
         {
-            print("Test");
             parent.GetComponent<DeleteSheet>().removeSheet();
         }
 
@@ -31,7 +30,8 @@ public class LoadSheetFromSelector : MonoBehaviour
             {
                 sheet.GetComponent<SheetLoader>().load(templateName.GetComponent<Text>().text);
                 pile.GetComponent<SheetPile>().addSheet(sheet);
-
+                selector.transform.SetAsLastSibling();
+                sheet.transform.SetParent(pile.transform);
             }
             else
             {
@@ -44,5 +44,17 @@ public class LoadSheetFromSelector : MonoBehaviour
     {
         pile = p;
         sheetPile = true;
+    }
+    public void setNewPile(GameObject p)
+    {
+        pile = p;
+        if (pile.GetComponent<SheetPile>().getSheetCount() == 0)
+        {
+            parent.GetComponent<DeleteSheet>().newPile();
+        }
+        else
+        {
+            parent.GetComponent<DeleteSheet>().setSheet(pile.GetComponent<SheetPile>().getTopSheet());
+        }
     }
 }

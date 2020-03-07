@@ -28,7 +28,10 @@ public class ListFiles : MonoBehaviour
             result.GetComponent<LoadSheetFromSelector>().parent = parent;
 
             if (isSheetPile)
+            {
                 result.GetComponent<LoadSheetFromSelector>().isSheetPile(pile);
+                result.GetComponent<LoadSheetFromSelector>().selector = selectionScreen;
+            }
 
             resultList.Add(result);
             fileNames.Add(sheetName);
@@ -57,6 +60,14 @@ public class ListFiles : MonoBehaviour
             {
                 result.SetActive(true);
             }
+        }
+    }
+
+    public void setPile()
+    {
+        foreach (GameObject result in resultList)
+        {
+            result.GetComponent<LoadSheetFromSelector>().setNewPile(pile);
         }
     }
 

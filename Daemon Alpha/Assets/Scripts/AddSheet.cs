@@ -20,6 +20,8 @@ public class AddSheet : MonoBehaviour
     public void newSheet()
     {
         selector.SetActive(true);
+        selector.transform.SetAsLastSibling();
         content.GetComponent<ListFiles>().pile = gameObject;
+        content.GetComponent<ListFiles>().setPile();
     }
 }

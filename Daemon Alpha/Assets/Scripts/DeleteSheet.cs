@@ -24,5 +24,9 @@ public class DeleteSheet : MonoBehaviour
         return sheetSet;
     }
 
-
+    public void newPile()
+    {
+        sheet = null;
+        sheetSet = false;
+    }
 }

@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\DragHandler.cs" />
     <Compile Include="Assets\Scripts\DragUITarget.cs" />
     <Compile Include="Assets\Scripts\DropHandler.cs" />
+    <Compile Include="Assets\Scripts\EnviromentManager.cs" />
     <Compile Include="Assets\Scripts\FieldManager.cs" />
     <Compile Include="Assets\Scripts\Holder.cs" />
     <Compile Include="Assets\Scripts\InfoSheet.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Assets\Scripts\SheetLoader.cs" />
     <Compile Include="Assets\Scripts\SheetPile.cs" />
     <Compile Include="Assets\Scripts\Timeline.cs" />
+    <Compile Include="Assets\Scripts\UnActiveObject.cs" />
     <Compile Include="Assets\Scripts\Unit Tests\FileManagerTests.cs" />
     <Compile Include="Assets\Scripts\Unit Tests\QueueTest.cs" />
     <Compile Include="Assets\SimpleWebBrowser\Demo\SampleJSQueryHandler.cs" />
