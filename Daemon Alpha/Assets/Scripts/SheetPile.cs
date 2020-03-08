@@ -143,4 +143,14 @@ public class SheetPile : MonoBehaviour
     {
         return sheets[index];
     }
+
+    public List<InfoSheet> getSheets()
+    {
+        List<InfoSheet> sheetList = new List<InfoSheet>();
+        foreach (GameObject sheet in sheets)
+        {
+            sheetList.Add(sheet.GetComponent<SheetLoader>().getSheet());
+        }
+        return sheetList;
+    }
 }

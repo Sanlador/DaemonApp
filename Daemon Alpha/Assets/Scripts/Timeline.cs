@@ -18,7 +18,7 @@ public class Timeline : MonoBehaviour
 	public Button addCounter = null;
 	public Button addSheet = null;
 	public Button order = null;
-	public InputField sortBy = null;
+	public Dropdown sortBy = null;
 
 
 	public Transform viewTrans = null;
@@ -28,12 +28,13 @@ public class Timeline : MonoBehaviour
 	public GameObject eventPrefab = null;
 
 	public GameObject notification = null;
-	public Text 	  notifText = null;
+	public Text notifText = null;
 	public InputField notifInput = null;
 	public Button dismissPopup = null;
 	bool poppedUp = false;
 
-	List<GameObject>  events = new List<GameObject>();
+	List<GameObject> events = new List<GameObject>();
+	List<String> sortables = new List<string>();
 
 	int buffer_size = 2;
 
@@ -45,48 +46,100 @@ public class Timeline : MonoBehaviour
 	const float approach = 0.1f;
 
 
-	QueueItem new_notif(){
-		QueueItem result = new QueueItem("notif"+notif_count.ToString());
+	void recalc_sortables()
+	{
+		bool first = true;
+		foreach (var QI in queue.queue)
+		{
+			if (QI.getType() != 0)
+			{
+				continue;
+			}
+			if (first)
+			{
+				first = false;
+				sortables = new List<string>(QI.getNumericalKeys());
+				continue;
+			}
+			List<string> intermed = new List<string>(sortables);
+			foreach (var s in intermed)
+			{
+				if (!QI.hasNumericalKey(s))
+				{
+					sortables.Remove(s);
+				}
+			}
+
+		}
+
+		string x = "";
+		foreach (var k in sortables)
+		{
+			x += k + " , ";
+		}
+		Debug.Log(x);
+
+
+		sortBy.options.Clear();
+		sortBy.RefreshShownValue();
+		foreach (var k in sortables)
+		{
+			sortBy.options.Add(new Dropdown.OptionData(k));
+		}
+		sortBy.RefreshShownValue();
+	}
+
+
+	QueueItem new_notif()
+	{
+		QueueItem result = new QueueItem("notif" + notif_count.ToString());
 		notif_count++;
 		return result;
 	}
 
 
-	QueueItem new_count(){
+	QueueItem new_count()
+	{
 		QueueItem result = new QueueItem(count_count);
 		count_count++;
 		return result;
 	}
 
 
-	QueueItem new_sheet(){
-		InfoSheet sheet = new InfoSheet("sheet"+sheet_count.ToString());
-		sheet.addDynamic("initiative",(float)-sheet_count,float.PositiveInfinity,float.NegativeInfinity,(float)sheet_count,1f,1f);
-		sheet.addDynamic("reverse",(float)sheet_count,float.PositiveInfinity,float.NegativeInfinity,(float)sheet_count,1f,1f);
+	QueueItem new_sheet()
+	{
+		string name = "sheet" + sheet_count.ToString();
+		InfoSheet sheet = new InfoSheet(name);
+		sheet.addDynamic("initiative", (float)-sheet_count, float.PositiveInfinity, float.NegativeInfinity, (float)sheet_count, 1f, 1f);
+		sheet.addDynamic("reverse", (float)sheet_count, float.PositiveInfinity, float.NegativeInfinity, (float)sheet_count, 1f, 1f);
+		sheet.addDynamic(name, (float)sheet_count, float.PositiveInfinity, float.NegativeInfinity, (float)sheet_count, 1f, 1f);
 		sheet_count++;
 		return new QueueItem(sheet);
 	}
 
 
-	void refresh(){
+	void refresh()
+	{
 
-		if(queue.queue.Count > 0 ){
-			
-			float target  = queue.getIndex();
-			int current_idx = ((int)(currentPosition+0.5) + queue.queue.Count) % queue.queue.Count;
+		if (queue.queue.Count > 0)
+		{
+
+			float target = queue.getIndex();
+			int current_idx = ((int)(currentPosition + 0.5) + queue.queue.Count) % queue.queue.Count;
 			int label_idx = ((int)(-currentPosition) + queue.queue.Count) % queue.queue.Count;
 			float diff = currentPosition - current_idx;
-			
-			for(int i = -buffer_size; i <= buffer_size; i++){
-				int idx = (i + current_idx + queue.queue.Count)%queue.queue.Count;
-				Text label = events[i+buffer_size].GetComponentInChildren<Text>();
-				label.text=((char) ((int)'A' + idx)).ToString();
-				RectTransform rtform = events[i+buffer_size].GetComponentInChildren<RectTransform>();
-				rtform.anchoredPosition = new Vector2(0,0);
-				rtform.anchorMin = new Vector2(0.5f,0.5f);
-				rtform.anchorMax = new Vector2(0.5f,0.5f);
-				rtform.offsetMin = new Vector2(128*(+i-diff)-24,-24);
-				rtform.offsetMax = new Vector2(128*(+i-diff)+24,24);
+
+			for (int i = -buffer_size; i <= buffer_size; i++)
+			{
+				int idx = (i + current_idx + queue.queue.Count) % queue.queue.Count;
+				Text label = events[i + buffer_size].GetComponentInChildren<Text>();
+				label.text = ((char)((int)'A' + idx)).ToString();
+				RectTransform rtform = events[i + buffer_size].GetComponentInChildren<RectTransform>();
+				rtform.anchoredPosition = new Vector2(0, 0);
+				rtform.anchorMin = new Vector2(0.5f, 0.5f);
+				rtform.anchorMax = new Vector2(0.5f, 0.5f);
+				rtform.offsetMin = new Vector2(128 * (+i - diff) - 24, -24);
+				rtform.offsetMax = new Vector2(128 * (+i - diff) + 24, 24);
 
 				/*
 				int lastIdx = (i + current_idx + queue.queue.Count - 1)%queue.queue.Count;
@@ -104,7 +157,7 @@ public class Timeline : MonoBehaviour
 				//*/
 
 			}
-				
+
 			currentPosition = target * approach + currentPosition * (1.0f - approach);
 
 		}
@@ -112,7 +165,8 @@ public class Timeline : MonoBehaviour
 	}
 
 
-	void HandleChange(){
+	void HandleChange()
+	{
 		/*
 		if(queue.queue.Count == 0){
 			return;
@@ -152,93 +206,107 @@ public class Timeline : MonoBehaviour
 	}
 
 
-	void do_popup(){
+	void do_popup()
+	{
 
-		if(queue.queue.Count == 0){
+		if (queue.queue.Count == 0)
+		{
 			return;
 		}
 
 		QueueItem currentEvent = queue.queue[queue.getIndex()];
-		switch(currentEvent.getType()){
-		case 0:
-			Debug.Log("Name");
-			notifInput.text = currentEvent.getName();
-			break;
-		case 1:
-			Debug.Log("Count");
-			notifInput.text = currentEvent.getCounter().ToString();
-			break;
-		case 2:
-			Debug.Log("Note");
-			notifInput.text = currentEvent.getNotification();
-			break;
-		default:
-			notifInput.text = "";
-			return;
+		switch (currentEvent.getType())
+		{
+			case 0:
+				Debug.Log("Name");
+				notifInput.text = currentEvent.getName();
+				break;
+			case 1:
+				Debug.Log("Count");
+				notifInput.text = currentEvent.getCounter().ToString();
+				break;
+			case 2:
+				Debug.Log("Note");
+				notifInput.text = currentEvent.getNotification();
+				break;
+			default:
+				notifInput.text = "";
+				return;
 		}
 		notification.SetActive(true);
 	}
 
 
-	void fwd_button(){
+	void fwd_button()
+	{
 		Debug.Log("Forward");
 		queue.moveForward();
 		do_popup();
 		//refresh();
 	}
 
-	void bwd_button(){
+	void bwd_button()
+	{
 		Debug.Log("Backward");
 		queue.moveBack();
 		do_popup();
 		//refresh();
 	}
 
-	void fkp_button(){
+	void fkp_button()
+	{
 		Debug.Log("Foreskip");
 		queue.goToEnd();
 		do_popup();
 		//refresh();
 	}
 
-	void bkp_button(){
+	void bkp_button()
+	{
 		Debug.Log("Backskip");
 		queue.goToStart();
 		do_popup();
 		//refresh();
 	}
 
-	void notif_button(){
+	void notif_button()
+	{
 		Debug.Log("Notif");
 		queue.addToQueue(new_notif());
 		//refresh();
 	}
 
-	void count_button(){
+	void count_button()
+	{
 		Debug.Log("Count");
 		queue.addToQueue(new_count());
 		do_popup();
 		//refresh();
 	}
 
-	void sheet_button(){
+	public void sheet_button(InfoSheet sheet)
+	{
 		Debug.Log("Sheet");
-		queue.addToQueue(new_sheet());
+		queue.addToQueue(new QueueItem(sheet));
+		recalc_sortables();
 		do_popup();
 		//refresh();
 	}
 
-	void order_button(){
+	void order_button()
+	{
 		Debug.Log("Order");
-		if(sortBy.text.Length == 0){
+		if (sortBy.captionText.text.Length == 0)
+		{
 			return;
 		}
-		queue.orderBy(sortBy.text);
+		queue.orderBy(sortBy.captionText.text);
 		do_popup();
 		//refresh();
 	}
 
-	void dismiss_button(){
+	void dismiss_button()
+	{
 		Debug.Log("Dismiss");
 		notifInput.text = "";
 		notification.SetActive(false);
@@ -247,45 +315,46 @@ public class Timeline : MonoBehaviour
 
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
+	// Start is called before the first frame update
+	void Start()
+	{
 		transform = GetComponent<Transform>();
 
-		forward    = transform.Find("Forward_Button").GetComponent<Button>();
-		backward   = transform.Find("Backward_Button").GetComponent<Button>();
-		foreskip   = transform.Find("ForeSkip_Button").GetComponent<Button>();
-		backskip   = transform.Find("BackSkip_Button").GetComponent<Button>();
+		forward = transform.Find("Forward_Button").GetComponent<Button>();
+		backward = transform.Find("Backward_Button").GetComponent<Button>();
+		foreskip = transform.Find("ForeSkip_Button").GetComponent<Button>();
+		backskip = transform.Find("BackSkip_Button").GetComponent<Button>();
 
-		addNote    = transform.Find("Note_Button").GetComponent<Button>();
+		addNote = transform.Find("Note_Button").GetComponent<Button>();
 		addCounter = transform.Find("Counter_Button").GetComponent<Button>();
-		addSheet   = transform.Find("Sheet_Button").GetComponent<Button>();
-		order      = transform.Find("Order_Button").GetComponent<Button>();
+		addSheet = transform.Find("Sheet_Button").GetComponent<Button>();
+		order = transform.Find("Order_Button").GetComponent<Button>();
 
-		sortBy     = transform.Find("Order_By_Field").GetComponent<InputField>();
-		viewTrans  = transform.Find("TimeLine_View").GetComponent<Transform>();
+		sortBy = transform.Find("Order_By_Field").GetComponent<Dropdown>();
+		viewTrans = transform.Find("TimeLine_View").GetComponent<Transform>();
 
 		notification = transform.Find("Popup").gameObject;
 		notifInput = notification.transform.Find("Popup_View").GetComponent<InputField>();
-		notifInput.onValueChanged.AddListener(delegate {HandleChange(); });
+		notifInput.onValueChanged.AddListener(delegate { HandleChange(); });
 		notifText = notification.transform.Find("Popup_View").Find("Popup_Text").GetComponent<Text>();
 		dismissPopup = transform.Find("TimeLine_Reticle").GetComponent<Button>();
 
 
-		forward.onClick.AddListener		(fwd_button);
-		backward.onClick.AddListener	(bwd_button);
-		foreskip.onClick.AddListener	(fkp_button);
-		backskip.onClick.AddListener	(bkp_button);
-		addNote.onClick.AddListener		(notif_button);
-		addCounter.onClick.AddListener	(count_button);
-		addSheet.onClick.AddListener	(sheet_button);
-		order.onClick.AddListener		(order_button);
+		forward.onClick.AddListener(fwd_button);
+		backward.onClick.AddListener(bwd_button);
+		foreskip.onClick.AddListener(fkp_button);
+		backskip.onClick.AddListener(bkp_button);
+		//addNote.onClick.AddListener(notif_button);
+		//addCounter.onClick.AddListener(count_button);
+		//addSheet.onClick.AddListener(sheet_button);
+		order.onClick.AddListener(order_button);
 		dismissPopup.onClick.AddListener(dismiss_button);
 
 
 
-		for( int i = -buffer_size; i <= buffer_size; i++){
-			GameObject go = Instantiate(eventPrefab,viewTrans);
+		for (int i = -buffer_size; i <= buffer_size; i++)
+		{
+			GameObject go = Instantiate(eventPrefab, viewTrans);
 			RectTransform rt = go.GetComponent<RectTransform>();
 			events.Add(go);
 		}
@@ -293,11 +362,11 @@ public class Timeline : MonoBehaviour
 		notification.SetActive(false);
 
 
-    }
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
+	// Update is called once per frame
+	void Update()
+	{
 		refresh();
-    }
+	}
 }

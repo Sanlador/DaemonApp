@@ -505,3 +505,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sheet: {fileID: 630914184781020693, guid: baa4e56a0c4b0444caa276d8f303e572, type: 3}
   templateName: {fileID: 2447682619312355722}
+  parent: {fileID: 0}
+  pile: {fileID: 0}
+  selector: {fileID: 0}

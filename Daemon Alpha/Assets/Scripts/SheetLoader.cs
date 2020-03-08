@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class SheetLoader : MonoBehaviour
 {
     public GameObject text, label, dyn, stat, f;
-    InfoSheet sheet;
+    public InfoSheet sheet;
+    string instance;
 
     // Start is called before the first frame update
     void Start()
@@ -23,10 +24,12 @@ public class SheetLoader : MonoBehaviour
     public void generateSheet(string fileName, bool template = false)
     {
         sheet = SheetFileManager.loadSheetFromFile(fileName);
+        if (!template)
+            sheet.setInstance(instance.Split('.')[1]);
+
         GameObject field;
         foreach (KeyValuePair<string, (string, float, float, float, float)> tuple in sheet.getTextFields())
         {
-            print(tuple);
             if (tuple.Value.Item1 == "")
             {
                 field = Instantiate(label, transform);
@@ -76,7 +79,6 @@ public class SheetLoader : MonoBehaviour
             else
             {
                 field.GetComponent<Text>().text = tuple.Key;
-                print(tuple.Value.Item1.ToString());
                 field.GetComponent<Holder>().held.GetComponent<Text>().text = tuple.Value.Item1.ToString();
             }
             field.GetComponent<RectTransform>().localPosition = new Vector3(tuple.Value.Item2, tuple.Value.Item3, 0);
@@ -112,6 +114,7 @@ public class SheetLoader : MonoBehaviour
 
     public void load(string filename)
     {
+        instance = filename;
         generateSheet(@"Instances\" + filename + ".st");
     }
 

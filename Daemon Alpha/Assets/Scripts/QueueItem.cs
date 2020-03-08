@@ -29,7 +29,7 @@ public class QueueItem
     public QueueItem(string message)
     {
         notification = message;
-		itemType = 2;
+        itemType = 2;
     }
 
     public int getType()
@@ -40,6 +40,28 @@ public class QueueItem
     public string notify()
     {
         return notification;
+    }
+
+    public List<string> getNumericalKeys()
+    {
+        if (itemType != 0)
+        {
+            return null;
+        }
+        List<string> result = new List<string>(entity.staticNumericalFields.Keys);
+        result.AddRange(entity.dynamicNumericalFields.Keys);
+        return result;
+    }
+
+    public bool hasNumericalKey(string key)
+    {
+        if (itemType != 0)
+        {
+            return false;
+        }
+        bool S = entity.staticNumericalFields.ContainsKey(key);
+        bool D = entity.dynamicNumericalFields.ContainsKey(key);
+        return (S | D);
     }
 
     public float getNumericalValue(string key)
@@ -73,18 +95,18 @@ public class QueueItem
     public string getNotification()
     {
         return notification;
-	}
+    }
 
-	public int getCounter()
-	{
-		return counter;
-	}
+    public int getCounter()
+    {
+        return counter;
+    }
 
 
-	public string getName()
-	{
-		return entity.getName();
-	}
+    public string getName()
+    {
+        return entity.getName();
+    }
 
     public void deccrementCounter()
     {

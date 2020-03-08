@@ -116,4 +116,9 @@ public class SheetController : MonoBehaviour, IPointerClickHandler
             }
         }
     }
+
+    public InfoSheet getSheet()
+    {
+        return sheet;
+    }
 }

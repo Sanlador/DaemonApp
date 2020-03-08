@@ -10,6 +10,11 @@ public class UnActiveObject : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    public void activate()
+    {
+        gameObject.SetActive(true);
+    }
+
     void Start()
     {
         

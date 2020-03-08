@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class EnviromentManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Dictionary<string, InfoSheet> activeSheets;
+    //public Dictionary<string, InfoSheet> activeSheets;
     public GameObject selector, content, pile, buttonUp, buttonDown, markerLeft, markerRight, pileCounter, numerator, denominator;
     public List<GameObject> activePiles;
 
@@ -97,6 +97,22 @@ public class EnviromentManager : MonoBehaviour
         denominator.GetComponent<Text>().text = (pileCount / 2 + 1).ToString();
     }
 
+    public Dictionary<string, InfoSheet> getActiveSheets()
+    {
+        Dictionary<string, InfoSheet> sheets = new Dictionary<string, InfoSheet>();
+
+        foreach (GameObject pile in activePiles)
+        {
+            int i = 0;
+            foreach (InfoSheet sheet in pile.GetComponent<SheetPile>().getSheets())
+            {
+                sheets.Add(sheet.getInstance(), sheet);
+            }
+        }
+
+        return sheets;
+    }
+
     void Start()
     {
         pileCount = 0;
@@ -109,6 +125,6 @@ public class EnviromentManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //getActiveSheets();
     }
 }
