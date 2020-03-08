@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - OptionItem
+  - panel_text
+  - parent
+  - panel_description
   layers:
   - Default
   - TransparentFX

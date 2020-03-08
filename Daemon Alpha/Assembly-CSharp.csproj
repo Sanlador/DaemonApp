@@ -55,6 +55,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AddPanel.cs" />
+     <Compile Include="Assets\OpenPanel.cs" />
      <Compile Include="Assets\Scripts\ConsoleWidget.cs" />
      <Compile Include="Assets\Scripts\DiceExpr.cs" />
      <Compile Include="Assets\Scripts\DragHandler.cs" />
