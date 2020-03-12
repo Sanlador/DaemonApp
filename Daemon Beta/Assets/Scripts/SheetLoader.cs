@@ -85,8 +85,8 @@ public class SheetLoader : MonoBehaviour
                 field.GetComponent<Text>().text = tuple.Key;
                 field.GetComponent<Holder>().held.GetComponent<Text>().text = tuple.Value.Item1.ToString();
                 field.GetComponent<AddToConsole>().console = console;
-                field.GetComponent<AddToConsole>().field = tuple.Key;
-                field.GetComponent<AddToConsole>().sheetName = instance;
+                //field.GetComponent<AddToConsole>().field = tuple.Key;
+                //field.GetComponent<AddToConsole>().sheetName = instance;
             }
             field.GetComponent<RectTransform>().localPosition = new Vector3(tuple.Value.Item2, tuple.Value.Item3, 0);
         }
@@ -109,8 +109,8 @@ public class SheetLoader : MonoBehaviour
                 field.GetComponent<Holder>().held1.GetComponent<Text>().text = tuple.Value.Item2.ToString();
 
                 field.GetComponent<AddToConsole>().console = console;
-                field.GetComponent<AddToConsole>().field = tuple.Key;
-                field.GetComponent<AddToConsole>().sheetName = instance;
+                //field.GetComponent<AddToConsole>().field = tuple.Key;
+                //field.GetComponent<AddToConsole>().sheetName = instance;
             }
             
             field.GetComponent<RectTransform>().localPosition = new Vector3(tuple.Value.Item3, tuple.Value.Item4, 0);

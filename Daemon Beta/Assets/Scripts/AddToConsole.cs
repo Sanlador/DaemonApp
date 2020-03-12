@@ -6,8 +6,7 @@ using UnityEngine.UI;
 public class AddToConsole : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject console;
-    public string sheetName, field;
+    public GameObject console, sheetVal;
 
     void Start()
     {
@@ -22,6 +21,6 @@ public class AddToConsole : MonoBehaviour
 
     public void sendToConsole()
     {
-        console.GetComponent<InputField>().text += sheetName + "." + field; 
+        console.GetComponent<InputField>().text += " " + sheetVal.GetComponent<Text>().text + " "; 
     }
 }
