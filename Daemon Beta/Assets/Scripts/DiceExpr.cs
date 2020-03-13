@@ -2,127 +2,157 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-enum Dexpr {
-	VAL,
-	ROL,
-	PAR,
-	MUL,
-	DIV,
-	MOD,
-	ADD,
-	SUB,
-};
+
+
+
+
+
+
 
 public class DiceExpr
 {
-/*
-	Dexpr type;
-	List<string> content;
-	List<DiceExpr> subExprs;
 
 
-	List<List<string>> SplitBy(List<string> tokens,string[] delims){
-		List<List<string>> results = new List<List<string>>();
-		results.Add(new List<string>());
-		foreach(string token in tokens){
-			if(Array.Exists(delims, d=> (token.Contains(d)))){
-				string[] sp = token.Split(delims);
-				foreach(string s in sp){
-					if(delims.Contains(s)){
-						results.Add(new List<string>());
-					} else if(s.Length > 0) {
-						results[results.Count - 1].Add(s);
-					}
-				}
-			} else {
-				results[results.Count - 1].Add(token);
+	float val;
+	string str;
+	string tok;
+	List<DiceExpr> exp;
+	bool evaluated = false;
+
+
+	void append(List<DiceExpr> dest, List<DiceExpr> src){
+		for(int i = 0; i < src.size(); i++){
+			dest.push_back(src[i]);
+		}
+	}
+
+
+	bool isAt (string src, string targ, int pos){
+
+
+		int lim = pos+targ.size();
+
+		if(lim > src.size()){
+			return false;
+		}
+
+		for(int i = 0; i < targ.size(); i++){
+			if( src[pos+i] != targ[i]){
+				return false;
 			}
 		}
-		return results;
+
+		return true;
+
 	}
 
 
-	DiceExpr ExprChain (List<List<string>> sections, List<Dexpr> ) {
-		DiceExpr result = new DiceExpr();
-		for( int i = sections.Count-2; i >= 0; i--){
-			
+
+
+	float dice(float n, float f){
+
+		int N = n;
+		int F = f;
+
+		int val = 0;
+		for(int i = 0; i < N; i++){
+			val += rand() % F + 1;
 		}
-	}
 
-
-	DiceExpr Mathify(List<string> tokens){
-		string[] rolDelims = {"d"};
-		List<List<string>> rolls = SplitBy (tokens,roldelims);
-
+		return (float) val;
 
 	}
 
 
-	DiceExpr Parify(){
-		int idx = first;
 
-		List<string> subStrs = new List<string>();
+	void NaiveBreak(List<string> Ds){
 
-		while(){
-			while(!content[idx].Equals("(")){
-				subStrs.Add(content[first]);
-				first++;
-				if(first >= content.Count()){
+
+		if(Ds.size() == 0){
+			if(float.TryParse(src.str,src.val)){
+				return;
+			}
+			string s = "Invalid string '";
+			s += str;
+			s += "' not a numerical value or reference";
+			throw s;
+		}
+
+		string D = Ds.back();
+
+		Ds.pop_back();
+
+		int pos = 0;
+		int start = pos;
+		while(pos<str.size()){
+			if(isAt(str,D,pos)){
+
+				DiceExpr b;
+				b.str = str.substr(start,pos-start);
+				NaiveBreak(b,Ds);
+
+				exp.push_back(b);
+
+				pos += D.size();
+				start = pos;
+			}
+			pos++;
+		}
+		if(pos > start){
+			DiceExpr l;
+			l.str = str.substr(start,pos-start);
+			NaiveBreak(l,Ds);
+			exp.push_back(l);
+		}
+
+		for(int i = 0; i < exp.size(); i++){
+			if( i == 0 ){
+				val = exp[i].val;
+			} else{
+
+				switch(c){
+				case "+":
+					val += exp[i].val;
 					break;
+				case "-":
+					val -= exp[i].val;
+					break;
+				case "*":
+					val = val * exp[i].val;
+					break;
+				case "/":
+					val = val / exp[i].val;
+					break;
+				case "%":
+					val = fmod(val,exp[i].val);
+					break;
+				case "d":
+					val = dice(val,exp[i].val);
+				default:
+					break;
+
 				}
+
 			}
 		}
 
-	}
-
-
-	string Valify(){
-
-	}
-
-	List<string> Mulify(){
 
 	}
 
 
-	List<string> Addify(){
-
+	DiceExpr(string s){
+		str = s;
 	}
 
 
-	DiceExpr(List<string> tokens, Dexpr dexpr_type){
-		type = dexpr_type;
-		content = tokens;
-
-		switch(type){
-		case Dexpr.VAL:
-			Val
-			break;
-		case Dexpr.ROL:
-
-			break;
-		case Dexpr.PAR:
-
-			break;
-		case Dexpr.MUL:
-
-			break;
-		case Dexpr.DIV:
-
-			break;
-		case Dexpr.MOD:
-
-			break;
-		case Dexpr.ADD:
-
-			break;
-		case Dexpr.SUB:
-
-			break;
-
+	float Eval(){
+		if(! evaluated){
+			List<string> Ds = {"d","/","*","-","+"};
+			NaiveBreak(Ds);
 		}
-
+		return val;
 	}
-*/
+
+
 
 }

@@ -144,6 +144,7 @@ public class ConsoleWidget : MonoBehaviour
 	void HandleCommand(string command)
 	{
 
+		/*
 		char[] newl = { ' ', '\t' };
 		string[] tokens = consoleInput.text.Split(newl, StringSplitOptions.RemoveEmptyEntries);
 
@@ -172,6 +173,9 @@ public class ConsoleWidget : MonoBehaviour
 				PrintLine("Unrecognized Command: '" + tokens[0] + "'");
 				break;
 		}
+		*/
+		DiceExpr cmd = new DiceExpr(command);
+		PrintLine(ToString(cmd.Eval()));
 
 	}
 
